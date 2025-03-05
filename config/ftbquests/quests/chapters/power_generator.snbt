@@ -1,0 +1,100 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_generator"
+	group: ""
+	id: "30D9C7F6330067D6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0843E56CA39E9822"]
+			id: "03DF4826C83F2B7B"
+			tasks: [{
+				id: "1658CDC91191A5CE"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03DF4826C83F2B7B"]
+			id: "3B724856240AEF7B"
+			tasks: [{
+				id: "60F42B286DECA285"
+				item: "gtceu:hp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0843E56CA39E9822"]
+			id: "748EB48B81DDCB5B"
+			tasks: [{
+				id: "429121FEEB27BFDB"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["748EB48B81DDCB5B"]
+			id: "1C90BC7DAD83DA32"
+			tasks: [{
+				id: "510BF95C5E9A39FE"
+				item: "gtceu:hp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36CD8B51E60B037A"]
+			id: "33BE3625B38B5888"
+			tasks: [{
+				id: "185D7527AC1F1040"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33BE3625B38B5888"]
+			id: "2FD5E895E168238E"
+			tasks: [{
+				id: "7CCAF8116DB5BE0E"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FD5E895E168238E"]
+			id: "6C375BCFFF89A6D7"
+			tasks: [{
+				id: "5B90638344ECC7D3"
+				item: "gtceu:hv_steam_turbine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C375BCFFF89A6D7"]
+			id: "3616EB723E6C65B6"
+			tasks: [{
+				id: "54FEABA47A5BA97E"
+				item: "gtceu:steam_large_turbine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	title: "Power Generator"
+}

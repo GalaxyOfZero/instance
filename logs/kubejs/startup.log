@@ -1,0 +1,93 @@
+[07:20:15] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[07:20:15] [INIT] Loaded plugins:
+[07:20:15] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[07:20:15] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[07:20:15] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
+[07:20:15] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[07:20:15] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[07:20:15] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[07:20:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[07:20:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[07:20:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[07:20:15] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[07:20:15] [INIT] - com.probejs.ProbeJSPlugin
+[07:20:15] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
+[07:20:15] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[07:20:15] [INIT] - net.yxiao233.kubejsthermalaugments.kubejs.ModKubeJSPlugin
+[07:20:15] [INIT] - com.alessandro.astages.integration.kubejs.AStageKubeJSPlugin
+[07:20:15] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[07:20:16] [INFO] Loaded script startup_scripts:greag/greg_materials.js in 0.047 s
+[07:20:16] [INFO] Loaded script startup_scripts:greag/machine/machine.js in 0.003 s
+[07:20:16] [INFO] Loaded script startup_scripts:greag/machine/machine_recipe_type.js in 0.001 s
+[07:20:16] [INFO] Loaded script startup_scripts:greag/multiblock/early_game.js in 0.004 s
+[07:20:16] [INFO] Loaded script startup_scripts:greag/multiblock/multiblock_recipe_type.js in 0.001 s
+[07:20:16] [INFO] Loaded script startup_scripts:items.js in 0.001 s
+[07:20:16] [INFO] Loaded script startup_scripts:item_modification.js in 0.001 s
+[07:20:16] [INFO] Loaded 7/7 KubeJS startup scripts in 0.654 s with 0 errors and 0 warnings
+[07:20:17] [INFO] greag/multiblock/early_game.js#2: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.steam.SteamParallelMultiblockMachine'
+[07:20:17] [ERROR] ! greag/multiblock/early_game.js#3: Error in 'GTCEuStartupEvents.registry': Failed to load Java class 'com.mo_guang.gtceu.ctpp.api.ctpppartability': Class could not be found!
+[07:20:17] [ERROR] ! …rhino.EvaluatorException: Failed to load Java class 'com.mo_guang.gtceu.ctpp.api.ctpppartability': Class could not be found! (startup_scripts:greag/multiblock/early_game.js#3)
+[07:20:17] [ERROR] !   at …rhino.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:67)
+[07:20:17] [ERROR] !   at …rhino.Context.reportRuntimeError(Context.java:133)
+[07:20:17] [ERROR] !   at …rhino.Context.reportRuntimeError(Context.java:173)
+[07:20:17] [ERROR] !   at …kubejs.script.ScriptManager.loadJavaClass(ScriptManager.java:284)
+[07:20:17] [ERROR] !   at …kubejs.bindings.JavaWrapper.loadClass(JavaWrapper.java:23)
+[07:20:17] [ERROR] !   at java.lang.reflect.Method.invoke(Unknown Source)
+[07:20:17] [ERROR] !   at …rhino.MemberBox.invoke(MemberBox.java:160)
+[07:20:17] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:463)
+[07:20:17] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
+[07:20:17] [ERROR] !   at script(startup_scripts:greag/multiblock/early_game.js:3)
+[07:20:17] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
+[07:20:17] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[07:20:17] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[07:20:17] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
+[07:20:17] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
+[07:20:17] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[07:20:17] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
+[07:20:17] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[07:20:17] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
+[07:20:17] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
+[07:20:17] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy91.onEvent(Unknown Source)
+[07:20:17] [ERROR] !   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
+[07:20:17] [ERROR] !   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
+[07:20:17] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:264)
+[07:20:17] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:226)
+[07:20:17] [ERROR] !   at com.gregtechceu.gtceu.integration.kjs.GTRegistryInfo.postEvent(GTRegistryInfo.java:166)
+[07:20:17] [ERROR] !   at com.gregtechceu.gtceu.integration.kjs.GTRegistryInfo.registerFor(GTRegistryInfo.java:171)
+[07:20:17] [ERROR] !   at com.gregtechceu.gtceu.common.data.GTMachines.init(GTMachines.java:1085)
+[07:20:17] [ERROR] !   at com.gregtechceu.gtceu.common.CommonProxy.init(CommonProxy.java:131)
+[07:20:17] [ERROR] !   at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+[07:20:17] [ERROR] !   at net.minecraftforge.fml.DeferredWorkQueue.lambda$makeRunnable$2(DeferredWorkQueue.java:81)
+[07:20:17] [ERROR] !   at net.minecraftforge.fml.DeferredWorkQueue.makeRunnable(DeferredWorkQueue.java:76)
+[07:20:17] [ERROR] !   at net.minecraftforge.fml.DeferredWorkQueue.lambda$runTasks$0(DeferredWorkQueue.java:60)
+[07:20:17] [ERROR] !   at java.util.concurrent.ConcurrentLinkedDeque.forEach(Unknown Source)
+[07:20:17] [ERROR] !   at net.minecraftforge.fml.DeferredWorkQueue.runTasks(DeferredWorkQueue.java:60)
+[07:20:17] [ERROR] !   at net.minecraftforge.fml.core.ParallelTransition.lambda$finalActivityGenerator$2(ParallelTransition.java:35)
+[07:20:17] [ERROR] !   at java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+[07:20:17] [ERROR] !   at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
+[07:20:17] [ERROR] !   at net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:43)
+[07:20:17] [ERROR] !   at net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:28)
+[07:20:17] [ERROR] !   at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:224)
+[07:20:17] [ERROR] !   at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210)
+[07:20:17] [ERROR] !   at java.util.Optional.ifPresent(Unknown Source)
+[07:20:17] [ERROR] !   at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210)
+[07:20:17] [ERROR] !   at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183)
+[07:20:17] [ERROR] !   at java.lang.Iterable.forEach(Unknown Source)
+[07:20:17] [ERROR] !   at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183)
+[07:20:17] [ERROR] !   at net.minecraftforge.client.loading.ClientModLoader.lambda$begin$1(ClientModLoader.java:69)
+[07:20:17] [ERROR] !   at net.minecraftforge.client.loading.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:89)
+[07:20:17] [ERROR] !   at net.minecraftforge.client.loading.ClientModLoader.begin(ClientModLoader.java:69)
+[07:20:17] [ERROR] !   at net.minecraft.client.Minecraft.<init>(Minecraft.java:459)
+[07:20:17] [ERROR] !   at net.minecraft.client.main.Main.main(Main.java:182)
+[07:20:17] [ERROR] !   at java.lang.reflect.Method.invoke(Unknown Source)
+[07:20:17] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.12/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
+[07:20:17] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.12/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)
+[07:20:17] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.12/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)
+[07:20:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+[07:20:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[07:20:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[07:20:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
+[07:20:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+[07:20:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[07:20:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[07:20:17] [ERROR] !   at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)

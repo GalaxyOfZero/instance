@@ -1,0 +1,18 @@
+{
+    "create.recipe.heat_requirement.lowheated": "Low heated",
+    "create.recipe.heat_requirement.lowheated1": "Low heated",
+    "material.gtceu.hepatizon": "Hepatizon",
+    "material.gtceu.manyullyn": "Manyullyn",
+    "material.gtceu.amethyst_bronze": "Amethyst Bronze",
+    "material.gtceu.slimesteel": "Slimesteel",
+    "gtceu.auto_stone_barrel": "Fluid Mixing",
+    "gtceu.auto_barrel_compost": "Composting",
+    "gtceu.auto_barrel_fluid_mixing": "Item Transform",
+    "block.gtceu.larg_farm": "Auto farm",
+    "gtceu.larg_farm": "Auto farm",
+    "block.gtceu.primitive_ore_factory": "Primitive Factory",
+    "gtceu.primitive_ore_processing": "Primitive Ore Processing",
+    "block.gtceu.better_primitive_blast_furnase": "Primitive Blast Furnase MKII",
+    "gtceu.better_primitive_blast_furnase": "Primitive Blast Furnase MKII"
+
+}

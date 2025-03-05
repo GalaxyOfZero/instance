@@ -1,0 +1,26 @@
+// Compost colors for travelersbackpack. You may add your own colors, change existing ones, or remove colors that aren't needed.
+backpack_tank, #ffffff
+black_sleeping_bag, #ffffff
+blank_upgrade, #feb296
+blue_sleeping_bag, #ffffff
+brown_sleeping_bag, #ffffff
+crafting_upgrade, #dab297
+cyan_sleeping_bag, #ffffff
+diamond_tier_upgrade, #bbffff
+gold_tier_upgrade, #ffffa5
+gray_sleeping_bag, #ffffff
+green_sleeping_bag, #ffffff
+hose, #76a544
+hose_nozzle, #ffea39
+iron_tier_upgrade, #f5fbf0
+light_blue_sleeping_bag, #ffffff
+light_gray_sleeping_bag, #ffffff
+lime_sleeping_bag, #ffffff
+magenta_sleeping_bag, #ffffff
+netherite_tier_upgrade, #b2b5aa
+orange_sleeping_bag, #ffffff
+pink_sleeping_bag, #ffffff
+purple_sleeping_bag, #ffffff
+red_sleeping_bag, #702d1b
+white_sleeping_bag, #ffffff
+yellow_sleeping_bag, #ffffff

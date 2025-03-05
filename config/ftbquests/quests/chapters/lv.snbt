@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv"
+	group: ""
+	icon: "gtceu:assembly_line_casing"
+	id: "535E00ED45FB8009"
+	order_index: 2
+	quest_links: [
+		{
+			id: "727E207EC131B40E"
+			linked_quest: "20A12F3B992762F0"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "1F81B726DA104150"
+			linked_quest: "36CD8B51E60B037A"
+			x: -2.0d
+			y: -0.5d
+		}
+	]
+	quests: [ ]
+	title: "LV"
+}

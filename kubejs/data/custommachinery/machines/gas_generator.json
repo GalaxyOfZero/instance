@@ -1,0 +1,113 @@
+{
+  "name": {
+    "text": "Gas Engine"
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:block": "galaxy_greg:machine/gas_generator_active",
+      "custommachinery:light": 15
+    },
+    "paused": {
+      "custommachinery:block": "galaxy_greg:machine/gas_generator",
+      "custommachinery:light": 5
+    },
+    "custommachinery:ambient_sound": "minecraft:",
+    "custommachinery:block": "galaxy_greg:machine/gas_generator",
+    "custommachinery:color": 16777215,
+    "custommachinery:hardness": 3.5,
+    "custommachinery:interaction_sound": {},
+    "custommachinery:item": "galaxy_greg:machine/gas_generator",
+    "custommachinery:resistance": 3.5,
+    "custommachinery:tool_type": [
+      "minecraft:mineable/pickaxe"
+    ]
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input",
+      "filter": ["gtceu:butane", "gtceu:sulfuric_gas", "gtceu:refinery_gas","gtceu:methane","gtceu:natural_gas","gtceu:wood_gas","gtceu:sulfuric_naphtha","gtceu:coal_gas","gtceu:ethylene","gtceu:ethane","gtceu:propene","gtceu:butadiene","gtceu:propane","gtceu:butene","gtceu:phenol","gtceu:benzene","gtceu:lpg","gtceu:nitrobenzene"],
+      "whitelist": true,
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_extra",
+      "filter":["gtceu:air","gtceu:oxygen"],
+      "whitelist": true,
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:contraption",
+      "config": {
+        "default": "none",
+        "left": "output",
+        "right": "output",
+        "back": "output"
+      }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 42,
+      "y": 11,
+      "width": 168,
+      "height": 165
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input",
+      "x": 64,
+      "y": 47
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_extra",
+      "x": 100,
+      "y": 47
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 140,
+      "y": 55
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 63,
+      "y": 36,
+      "text": {
+        "text": "Fuel"
+      }
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 93,
+      "y": 36,
+      "text": {
+        "text": "Booster"
+        }
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 181,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 45,
+      "y": 96
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 85,
+      "y": 17,
+      "text": {
+        "text": "SU Gas Generator"
+      }
+    }
+  ]
+}

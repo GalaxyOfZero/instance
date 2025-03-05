@@ -1,0 +1,28 @@
+
+#Copy id settings
+[copy_block_id]
+	#Range of getting block id 0 <= 25
+	#Range: 0 ~ 25
+	pick_distance = 5
+	#Option to copy the id of liquids
+	pick_fluid = true
+	#Option to get the id of air item in hand
+	pick_air_filter = true
+	#The format that the copy block is
+	#Allowed Values: NONE, KUBEJS, CRAFTTWEAKER
+	pick_format_mode = "NONE"
+
+	#KubeJS Copy Setting
+	[copy_block_id.kubejs]
+		#If to have the output single or double quote
+		#Allowed Values: SINGLE_QUOTE, DOUBLE_QUOTE
+		kubejs_quotes_mode = "SINGLE_QUOTE"
+
+#Notification Setting
+[notification_setting]
+	#If to have formating to the notification
+	notification_formating = true
+	#Notification location of block id
+	#Allowed Values: ACTION_BAR, CHAT, NONE
+	notification_mode = "ACTION_BAR"
+

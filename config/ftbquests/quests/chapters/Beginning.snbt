@@ -1,0 +1,881 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "Beginning"
+	group: ""
+	icon: "minecraft:dirt"
+	id: "34948C8E1D2D3D2B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6F6BC9F29C31FB5E"
+			rewards: [{
+				id: "260F440DD555C5F8"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				block: "minecraft:oak_log"
+				block_type: 0
+				checkItem: false
+				id: "0439BB95107E130F"
+				type: "questsadditions:break"
+				value: 16L
+			}]
+			title: "Woody begginings"
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B1B7C866E961A68"]
+			id: "2E9AA11F694F2BED"
+			rewards: [{
+				id: "78BA5E465A3AC6F3"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B287D54B185FC50"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2E9AA11F694F2BED"
+				"462E016CCFCD4DAA"
+			]
+			description: ["Now you can generate resources. This will be your main source of resources."]
+			id: "3F3E3CD778320054"
+			rewards: [{
+				id: "1D026DE8B2BA1C1D"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50EB50E2420F54A2"
+				item: "exdeorum:string_mesh"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41FABB0C652A42CB"]
+			id: "462E016CCFCD4DAA"
+			rewards: [{
+				id: "011C649D5E308412"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11CABDE053362C04"
+				item: "exdeorum:oak_sieve"
+				type: "item"
+			}]
+			title: "Sieve"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["41FABB0C652A42CB"]
+			id: "649C5DBBC6A5C62F"
+			rewards: [{
+				id: "240ECDAABF501F08"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10C51DEF6DAE2D90"
+				item: "exdeorum:oak_crucible"
+				type: "item"
+			}]
+			title: "Crucible"
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41FABB0C652A42CB"]
+			id: "64730F02258B0BB8"
+			rewards: [{
+				id: "7F73197680387030"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7937D1E6EAD69FCA"
+				item: "exdeorum:oak_barrel"
+				type: "item"
+			}]
+			title: "Barrel"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			description: ["The dirt contains some pebbles and you can extract them! Shift right-click the dirt and you shall get pebbles!"]
+			id: "5EDE27AC0D2E089A"
+			rewards: [{
+				count: 4
+				id: "121053B06F1340B9"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "34F748CFB2CEC6D3"
+					item: "exdeorum:stone_pebble"
+					type: "item"
+				}
+				{
+					id: "5B9DB1362B1F1CBF"
+					item: "exdeorum:diorite_pebble"
+					type: "item"
+				}
+				{
+					id: "1654D9A3CD707655"
+					item: "exdeorum:granite_pebble"
+					type: "item"
+				}
+				{
+					id: "2130B0A265C2906C"
+					item: "exdeorum:andesite_pebble"
+					type: "item"
+				}
+			]
+			title: "Pebbles from nothing..."
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5EDE27AC0D2E089A"
+				"41FABB0C652A42CB"
+			]
+			id: "1BD95B9B7C22E139"
+			rewards: [{
+				count: 4
+				id: "65C8CB8434F935B0"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "71F6AD0747D350F5"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "7AC9DB85650E73D9"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "4E3D335BDE3645A0"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					id: "1A41BF748FF225C0"
+					item: "minecraft:granite"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BD95B9B7C22E139"]
+			description: [
+				"Hammers can break down certain blocks:"
+				"Stone -> Cobblestone"
+				"Cobblestone -> Gravel"
+				"Gravel -> Sand"
+				"Sand -> Dust"
+				"Blackstone -> Crushed Blackstone"
+				"All of these can be sieved for resources."
+			]
+			icon: {
+				Count: 1
+				id: "exdeorum:stone_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4D69EF1B392E5337"
+			rewards: [{
+				id: "45F198435DE3E1AF"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FE2EB6E1859D8DF"
+				item: {
+					Count: 1
+					id: "exdeorum:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hammer"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D69EF1B392E5337"]
+			id: "1DF912172D11E3CF"
+			rewards: [{
+				id: "3F66741F2627E002"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A7063FB954F3F3B"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["64730F02258B0BB8"]
+			description: [
+				"The barrels from Ex Nihilo are used to generate more dirt. You can put organic material into it to generate more dirt."
+				""
+				"Note: the best way to get Dirt is by &nduping&r it or using are &nKatana&r to Harvet &2Leaves&r"
+			]
+			id: "3E70506A8EA08471"
+			rewards: [{
+				id: "32BA6B434BAAB00B"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EF14968F95E5219"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "More dirt"
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1DF912172D11E3CF"]
+			description: ["Coarse dirt can be crafted from 2 dirt and 2 gravel. Sieving coarse dirt will yield regular dirt, with a chance of extra dirt and gravel. This way you can multiply your dirt."]
+			id: "114F9DE75452E66B"
+			rewards: [{
+				id: "74B1A6394B4AD9CA"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F2A169DC7130123"
+				item: "minecraft:coarse_dirt"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1DF912172D11E3CF"]
+			id: "6CFFBB4FB33FF4D2"
+			rewards: [{
+				id: "26D656B24C2C5720"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AD0070FE7534F7E"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"55674CD141337D6C"
+				"649C5DBBC6A5C62F"
+			]
+			description: ["Clay is aquired by putting dust blocks into barrels full of water."]
+			id: "73E02F929D718620"
+			rewards: [{
+				id: "6D212763E69C6D8B"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2020CD477702F432"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0CFFABB4101F598A"
+				"73E02F929D718620"
+			]
+			id: "68C0957318547C70"
+			rewards: [{
+				id: "7677CDD710091F6A"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "492048BD89CB2AB4"
+				item: "exdeorum:porcelain_clay_ball"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["41FABB0C652A42CB"]
+			id: "39DFC93A2EE207AE"
+			rewards: [{
+				id: "4D785E3BE8A08815"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39468AD23CE097E4"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["39DFC93A2EE207AE"]
+			id: "0CFFABB4101F598A"
+			rewards: [{
+				id: "33FAF591B7C790F6"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A70D262E38BE237"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["68C0957318547C70"]
+			description: ["Fired Crucibles will be your first source of lava. Place a heat source under the crucible(like a campfire) and place some cobblestone in the crucible. In time, the cobblestone will melt into lava."]
+			id: "693473FC6CB62424"
+			rewards: [{
+				id: "28912BC8C32FF63E"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F518AF6B104F7AC"
+				item: "exdeorum:porcelain_crucible"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["41FABB0C652A42CB"]
+			description: ["When breaking leaves with crooks, they have a higher chance of dropping saplings."]
+			id: "2C30C61EE8FD5564"
+			rewards: [{
+				id: "2FF5730C33BCD1EC"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2806CE6DBAE08479"
+				item: {
+					Count: 1
+					id: "exdeorum:crook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C30C61EE8FD5564"]
+			description: ["Silk worms are dropped by leaves broken with a crook. You can place these worms in the leaves of other trees to infest them. Harvest the infested leaves with a crook to get string."]
+			id: "2B1B7C866E961A68"
+			rewards: [{
+				id: "12A050B6C3F15D4F"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B82681ABB575C5B"
+				item: "exdeorum:silk_worm"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F6BC9F29C31FB5E"]
+			id: "41FABB0C652A42CB"
+			rewards: [{
+				id: "451343F6A3607E1F"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B0F0EFA0C8E2DA0"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CFFBB4FB33FF4D2"]
+			id: "55674CD141337D6C"
+			rewards: [{
+				id: "2191D435F466DB0D"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DE6C6505FDE73DD"
+				item: "exdeorum:dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["68C0957318547C70"]
+			id: "5DCAE744AA6B63FD"
+			rewards: [{
+				id: "038D9A7FCA148007"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20387004FD60005D"
+				item: "exdeorum:unfired_porcelain_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"693473FC6CB62424"
+				"5DCAE744AA6B63FD"
+			]
+			id: "29F52DCE4275B10F"
+			rewards: [{
+				id: "324260682A7F8D17"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "716443501CAE06F0"
+				item: "exdeorum:porcelain_lava_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5DCAE744AA6B63FD"]
+			id: "39D67A29D74E82C4"
+			rewards: [{
+				id: "6D84E8CD382EBEA3"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "194BB78DA173E7DB"
+				item: "exdeorum:porcelain_water_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E9AA11F694F2BED"]
+			id: "6B9B509CB49E071D"
+			tasks: [{
+				id: "5CF730F6A67FC926"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["64730F02258B0BB8"]
+			id: "4B9E8FB524A96F50"
+			rewards: [{
+				id: "48786DEC0AB94699"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48FDC5A156DF4C8E"
+				item: "exdeorum:porcelain_witch_water_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F3E3CD778320054"]
+			icon: "minecraft:gravel"
+			id: "01F0E5BE0E21EBFF"
+			rewards: [{
+				count: 5
+				id: "1063495894F7E5B6"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7F802F6162BA6E3A"
+					item: "gtceu:crushed_copper_ore"
+					type: "item"
+				}
+				{
+					id: "1F19EFC4147ADE0A"
+					item: "gtceu:crushed_iron_ore"
+					type: "item"
+				}
+				{
+					id: "1BA84A369B8DC27D"
+					item: "gtceu:crushed_magnetite_ore"
+					type: "item"
+				}
+				{
+					id: "0F533D08BA0596C3"
+					item: "gtceu:crushed_tin_ore"
+					type: "item"
+				}
+			]
+			title: "Gravel Sieving"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F3E3CD778320054"]
+			icon: "minecraft:sand"
+			id: "288398F31DF51ACD"
+			rewards: [{
+				count: 5
+				id: "2C497BC9562AD44D"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1038E6F1DBCD512C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "55AD1CE0BE0A1CBE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "169C5EC6799EB4C5"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "4D1E836AA2607C6B"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "4935F7C87E4C04BB"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "Sand Sieving"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F3E3CD778320054"]
+			icon: "exdeorum:dust"
+			id: "0172253D9FACC994"
+			tasks: [
+				{
+					id: "1F8C5696B4E5DB29"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "0738B1180AB08D43"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "2AE8304C3D695CC4"
+					item: "gtceu:tiny_sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "1FFBE572C641C448"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			title: "Dust Sieving"
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F3E3CD778320054"]
+			icon: "minecraft:moss_block"
+			id: "5E7E9993233C254B"
+			rewards: [{
+				count: 10
+				id: "66FC5992CB9C4F56"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5D68A149C4BB8893"
+					item: "exdeorum:mycelium_spores"
+					type: "item"
+				}
+				{
+					id: "64AC8F9D1B885014"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "0866974B92D24DCC"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "65776CF984B80CD3"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "0FCF04558395CF5E"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					id: "78DC272D4784F6BA"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "579E017911C4E3A3"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "7484A1B35572052E"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+				{
+					id: "19022BE3C7D72687"
+					item: "minecraft:cactus"
+					type: "item"
+				}
+				{
+					id: "00AF52BBA5D8AC44"
+					item: "minecraft:sunflower"
+					type: "item"
+				}
+				{
+					id: "197325570623C3CC"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "2FD937585BADF54E"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+			]
+			title: "Moss Sieving"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B9E8FB524A96F50"]
+			description: ["To Mass Produce Blackstone in the &nearly game&r it is awais to &3Bulk Hund&r Cobbelstone via Create "]
+			id: "2553D9968F50F398"
+			tasks: [{
+				id: "77F5E720D01227A1"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			title: "First Blackstone"
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"41FABB0C652A42CB"
+				"64730F02258B0BB8"
+			]
+			id: "165FC631ED26C3C3"
+			rewards: [{
+				id: "564E02D35C6F8287"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4293C96AD4F349A9"
+				item: "gtceu:ulv_auto_wooden_barrel"
+				type: "item"
+			}]
+			x: -9.333333333333336d
+			y: 0.1071428571428541d
+		}
+		{
+			dependencies: [
+				"1BD95B9B7C22E139"
+				"41FABB0C652A42CB"
+			]
+			id: "223176A850191871"
+			tasks: [{
+				id: "440949BBA44C6DFD"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["223176A850191871"]
+			icon: "exdeorum:stone_barrel"
+			id: "7CD36C67A155B933"
+			rewards: [{
+				id: "0484FC82AF89F58F"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "041CDCA016D3BB5D"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "7A31238D5CF62939"
+					item: "minecraft:stone_slab"
+					type: "item"
+				}
+				{
+					id: "4BEE6BE0EE8CC181"
+					item: "exdeorum:stone_barrel"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7CD36C67A155B933"]
+			id: "4A9F62C35048BFBE"
+			rewards: [{
+				id: "7A59EA97B180F1C0"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7958603E19EB4531"
+				item: "gtceu:ulv_auto_stone_barrel"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3F3E3CD778320054"]
+			icon: "minecraft:blackstone"
+			id: "0EF1D3FDCA9AEDED"
+			rewards: [{
+				count: 2
+				id: "507C34B9000499A0"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6401466DA0663734"
+					item: "gtceu:crushed_galena_ore"
+					type: "item"
+				}
+				{
+					id: "43B328CE51F4BA7E"
+					item: "gtceu:crushed_stibnite_ore"
+					type: "item"
+				}
+			]
+			title: "Blackstone Sieving"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F3E3CD778320054"]
+			icon: "minecraft:mud"
+			id: "3F6E30F070086A49"
+			rewards: [{
+				count: 4
+				id: "259E730211CEF9E4"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "52034D4D4040D091"
+					item: "minecraft:mangrove_propagule"
+					type: "item"
+				}
+				{
+					id: "07F214958AE90ABC"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "3DD9916469799CAF"
+					item: "minecraft:bamboo"
+					type: "item"
+				}
+				{
+					id: "245360D36A51EB90"
+					item: "exdeorum:mycelium_spores"
+					type: "item"
+				}
+			]
+			title: "Mud Sieving"
+			x: -6.5d
+			y: -3.5d
+		}
+	]
+	title: "Beginning"
+}

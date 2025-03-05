@@ -1,0 +1,427 @@
+{
+  "AdvancementPlaques-1.20.1-forge-1.6.9.jar": {
+    "modId": "advancementplaques",
+    "version": "1.6.9"
+  },
+  "ae2ct-1.20.1-1.0.4.jar": {
+    "modId": "ae2ct",
+    "version": "1.20.1-1.0.4"
+  },
+  "AE2NetworkAnalyzer-1.20-1.0.6-forge.jar": {
+    "modId": "ae2netanalyser",
+    "version": "1.20-1.0.6-forge"
+  },
+  "AE2ToggleableViewCell-1.20.1-1.0.1-all.jar": {
+    "modId": "ae2_toggleable_view_cell",
+    "version": "1.0.1"
+  },
+  "alltheleaks-0.1.0-beta+1.20.1-forge.jar": {
+    "modId": "alltheleaks",
+    "version": "0.1.0-beta+1.20.1-forge"
+  },
+  "almostunified-forge-1.20.1-0.9.4.jar": {
+    "modId": "almostunified",
+    "version": "1.20.1-0.9.4"
+  },
+  "appleskin-forge-mc1.20.1-2.5.1.jar": {
+    "modId": "appleskin",
+    "version": "2.5.1+mc1.20.1"
+  },
+  "appliedenergistics2-forge-15.3.3.jar": {
+    "modId": "ae2",
+    "version": "15.3.3"
+  },
+  "architectury-9.2.14-forge.jar": {
+    "modId": "architectury",
+    "version": "9.2.14"
+  },
+  "astages-1.0.1-1.20.1.jar": {
+    "modId": "astages",
+    "version": "1.0.1-1.20.1"
+  },
+  "balm-forge-1.20.1-7.3.18-all.jar": {
+    "modId": "balm",
+    "version": "7.3.18"
+  },
+  "betterp2p-1.5.0-forge.jar": {
+    "modId": "betterp2p",
+    "version": "1.5.0"
+  },
+  "BetterQuestPopup-1.20.1(forge)-1.0.1.jar": {
+    "modId": "better_quest_popup",
+    "version": "1.0.1"
+  },
+  "bigger_ae2-1.20.1-1.3.6.jar": {
+    "modId": "bigger_ae2",
+    "version": "1.3.6"
+  },
+  "bml-1.20.1-1.1.8.jar": {
+    "modId": "blackdogsmoddinglibrary",
+    "version": "1.1.8"
+  },
+  "clean_tooltips-1.0-forge-1.20.1.jar": {
+    "modId": "clean_tooltips",
+    "version": "1.0"
+  },
+  "cloth-config-11.1.136-forge.jar": {
+    "modId": "cloth_config",
+    "version": "11.1.136"
+  },
+  "CodeChickenLib-1.20.1-4.4.0.516-universal.jar": {
+    "modId": "codechickenlib",
+    "version": "4.4.0.516"
+  },
+  "cofh_core-1.20.1-11.0.2.56.jar": {
+    "modId": "cofh_core",
+    "version": "11.0.2"
+  },
+  "ColouredTooltips-Forge-1.20.1-18.1.0.jar": {
+    "modId": "colouredtooltips",
+    "version": "18.1.0"
+  },
+  "configuration-forge-1.20.1-3.1.0.jar": {
+    "modId": "configuration",
+    "version": "3.1.0"
+  },
+  "constructionwand-1.20.1-2.11.jar": {
+    "modId": "constructionwand",
+    "version": "1.20.1-2.11"
+  },
+  "copycats-2.2.0+mc.1.20.1-forge.jar": {
+    "modId": "copycats",
+    "version": "2.2.0+mc.1.20.1-forge"
+  },
+  "craftingstation-1.20.1-1.2.3.jar": {
+    "modId": "craftingstation",
+    "version": "1.20.1-1.2.3"
+  },
+  "craftingtweaks-forge-1.20.1-18.2.5.jar": {
+    "modId": "craftingtweaks",
+    "version": "18.2.5"
+  },
+  "crash_assistant-forge-1.4.3.jar": {
+    "modId": "crash_assistant",
+    "version": "1.4.3"
+  },
+  "create-1.20.1-0.5.1.j.jar": {
+    "modId": "create",
+    "version": "0.5.1.j"
+  },
+  "create_connected-0.9.4-mc1.20.1-all.jar": {
+    "modId": "create_connected",
+    "version": "0.9.4-mc1.20.1"
+  },
+  "createlowheated-forge-1.20.1-0.5.1.f-i.jar": {
+    "modId": "createlowheated",
+    "version": "1.20.1-0.5.1.f-i"
+  },
+  "CustomMachinery-forge-1.20.1-0.10.6.jar": {
+    "modId": "custommachinery",
+    "version": "0.10.6"
+  },
+  "CustomMachineryCreate-forge-1.20.1-1.1.3.jar": {
+    "modId": "custommachinerycreate",
+    "version": "1.1.3"
+  },
+  "DuraDisplay-1.20.1-Forge-1.0.3.jar": {
+    "modId": "duradisplay",
+    "version": "1.0.4"
+  },
+  "embeddium-0.3.31+mc1.20.1.jar": {
+    "modId": "embeddium",
+    "version": "0.3.31+mc1.20.1"
+  },
+  "EnderStorage-1.20.1-2.11.0.188-universal.jar": {
+    "modId": "enderstorage",
+    "version": "2.11.0.188"
+  },
+  "eup2p-1.0.1.jar": {
+    "modId": "eup2p",
+    "version": "1.0.1"
+  },
+  "exdeorum-1.44.jar": {
+    "modId": "exdeorum",
+    "version": "1.44"
+  },
+  "ExtendedAE-1.20-1.3.5-forge.jar": {
+    "modId": "expatternprovider",
+    "version": "1.20-1.3.5-forge"
+  },
+  "ExtraLib-1.5.0-1.20.1.jar": {
+    "modId": "extralib",
+    "version": "1.5.0"
+  },
+  "ExtraQuests-1.4.2-1.20.1.jar": {
+    "modId": "extraquests",
+    "version": "1.4.2"
+  },
+  "FarmersDelight-1.20.1-1.2.7.jar": {
+    "modId": "farmersdelight",
+    "version": "1.20.1-1.2.7"
+  },
+  "FastSuite-1.20.1-5.0.1.jar": {
+    "modId": "fastsuite",
+    "version": "5.0.1"
+  },
+  "FastWorkbench-1.20.1-8.0.4.jar": {
+    "modId": "fastbench",
+    "version": "8.0.4"
+  },
+  "ferritecore-6.0.1-forge.jar": {
+    "modId": "ferritecore",
+    "version": "6.0.1"
+  },
+  "ftb-chunks-forge-2001.3.5.jar": {
+    "modId": "ftbchunks",
+    "version": "2001.3.5"
+  },
+  "ftb-library-forge-2001.2.9.jar": {
+    "modId": "ftblibrary",
+    "version": "2001.2.9"
+  },
+  "ftb-quests-forge-2001.4.11.jar": {
+    "modId": "ftbquests",
+    "version": "2001.4.11"
+  },
+  "ftb-teams-forge-2001.3.1.jar": {
+    "modId": "ftbteams",
+    "version": "2001.3.1"
+  },
+  "ftb-ultimine-forge-2001.1.5.jar": {
+    "modId": "ftbultimine",
+    "version": "2001.1.5"
+  },
+  "ftb-xmod-compat-forge-2.1.2.jar": {
+    "modId": "ftbxmodcompat",
+    "version": "2.1.2"
+  },
+  "ftbquestsfreezefix-forge-1.0.0-1.20.1.jar": {
+    "modId": "ftbquestsfreezefix",
+    "version": "1.0.0"
+  },
+  "FTBQuestsOptimizer-forge-2.0.5-1.20.1.jar": {
+    "modId": "ftbqoptimizer",
+    "version": "2.0.5-1.20.1"
+  },
+  "functionalstorage-1.20.1-1.2.12.jar": {
+    "modId": "functionalstorage",
+    "version": "1.20.1-1.2.12"
+  },
+  "fusion-1.2.4-forge-mc1.20.1.jar": {
+    "modId": "fusion",
+    "version": "1.2.4"
+  },
+  "Glodium-1.20-1.5-forge.jar": {
+    "modId": "glodium",
+    "version": "1.20-1.5-forge"
+  },
+  "gm_construct-1.0.3.jar": {
+    "modId": "gm_construct",
+    "version": "1.0.3"
+  },
+  "gtca-1.2.0.jar": {
+    "modId": "gtca",
+    "version": "1.2.0"
+  },
+  "gtceu-1.20.1-1.6.3.jar": {
+    "modId": "gtceu",
+    "version": "1.6.3"
+  },
+  "gtmthings-1.4.0.a.jar": {
+    "modId": "gtmthings",
+    "version": "1.4.0.a"
+  },
+  "gtnn-1.20.1-1.1.8.jar": {
+    "modId": "gtnn",
+    "version": "1.1.8"
+  },
+  "guideme-20.1.2.jar": {
+    "modId": "guideme",
+    "version": "20.1.2"
+  },
+  "Iceberg-1.20.1-forge-1.1.25.jar": {
+    "modId": "iceberg",
+    "version": "1.1.25"
+  },
+  "imfast-FORGE-1.20.1-1.0.2.jar": {
+    "modId": "imfast",
+    "version": "1.0.2"
+  },
+  "ImmersiveUI-FORGE-0.3.0.jar": {
+    "modId": "immersiveui",
+    "version": "0.3.0"
+  },
+  "item-filters-forge-2001.1.0-build.59.jar": {
+    "modId": "itemfilters",
+    "version": "2001.1.0-build.59"
+  },
+  "Jade-1.20.1-Forge-11.12.3.jar": {
+    "modId": "jade",
+    "version": "11.12.3+forge"
+  },
+  "JadeAddons-1.20.1-Forge-5.3.1.jar": {
+    "modId": "jadeaddons",
+    "version": "5.3.1+forge"
+  },
+  "jei-1.20.1-forge-15.20.0.106.jar": {
+    "modId": "jei",
+    "version": "15.20.0.106"
+  },
+  "Jet-Boots-1.20.1-1.2.6.jar": {
+    "modId": "jetboots",
+    "version": "1.2.6"
+  },
+  "kotlinforforge-4.11.0-all.jar": {},
+  "kubejs-create-forge-2001.2.5-build.2.jar": {
+    "modId": "kubejs_create",
+    "version": "2001.2.5-build.2"
+  },
+  "kubejs-forge-2001.6.5-build.16.jar": {
+    "modId": "kubejs",
+    "version": "2001.6.5-build.16"
+  },
+  "kubejsadditions-forge-4.3.3.jar": {
+    "modId": "kubejsadditions",
+    "version": "4.3.3"
+  },
+  "kubejsdelight-1.1.2.jar": {
+    "modId": "kubejsdelight",
+    "version": "1.1.2"
+  },
+  "kubejsthermalaugments-1.20.1-1.0.0.jar": {
+    "modId": "kubejsthermalaugments",
+    "version": "1.20.1-1.0.0"
+  },
+  "ldlib-forge-1.20.1-1.0.34.jar": {
+    "modId": "ldlib",
+    "version": "1.0.34"
+  },
+  "LibX-1.20.1-5.0.14.jar": {
+    "modId": "libx",
+    "version": "1.20.1-5.0.14"
+  },
+  "Mantle-1.20.1-1.11.36.jar": {
+    "modId": "mantle",
+    "version": "1.11.36"
+  },
+  "markdown_manual-MC1.20.1-forge-1.2.5+c3f0b88.jar": {
+    "modId": "markdown_manual",
+    "version": "1.2.5+c3f0b88"
+  },
+  "merequester-forge-1.20.1-1.1.5.jar": {
+    "modId": "merequester",
+    "version": "1.20.1-1.1.5"
+  },
+  "modernfix-forge-5.20.2+mc1.20.1.jar": {
+    "modId": "modernfix",
+    "version": "5.20.2+mc1.20.1"
+  },
+  "modpack_helper-1.0.1-1.20.1.jar": {
+    "modId": "modpack_helper",
+    "version": "1.0.1-1.20.1"
+  },
+  "MouseTweaks-forge-mc1.20.1-2.25.1.jar": {
+    "modId": "mousetweaks",
+    "version": "2.25.1"
+  },
+  "Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar": {
+    "modId": "nerb",
+    "version": "0.4.1"
+  },
+  "oc2r-1.20.1-forge-1.3.1+a95bb519-all.jar": {
+    "modId": "oc2r",
+    "version": "1.3.1"
+  },
+  "OctoLib-FORGE-0.4.2+1.20.1.jar": {
+    "modId": "octolib",
+    "version": "0.4.2"
+  },
+  "Placebo-1.20.1-8.6.2.jar": {
+    "modId": "placebo",
+    "version": "8.6.2"
+  },
+  "polyeng-forge-0.1.1-1.20.1.jar": {
+    "modId": "polyeng",
+    "version": "0.1.1-1.20.1"
+  },
+  "polymorph-forge-0.49.8+1.20.1.jar": {
+    "modId": "polymorph",
+    "version": "0.49.8+1.20.1"
+  },
+  "probejs-6.0.1-forge.jar": {
+    "modId": "probejs",
+    "version": "6.0.1"
+  },
+  "questsadditions-1.4.7.jar": {
+    "modId": "questsadditions",
+    "version": "1.4.7"
+  },
+  "rhino-forge-2001.2.3-build.10.jar": {
+    "modId": "rhino",
+    "version": "2001.2.3-build.10"
+  },
+  "rubberdrawers-1.1.jar": {
+    "modId": "rubberdrawers",
+    "version": "1.1"
+  },
+  "Searchables-forge-1.20.1-1.0.3.jar": {
+    "modId": "searchables",
+    "version": "1.0.3"
+  },
+  "sedna-1.18.2-forge-1.0.15+24e9fd2.jar": {
+    "modId": "sedna",
+    "version": "1.0.15"
+  },
+  "SkyblockBuilder-1.20.1-5.1.24.jar": {
+    "modId": "skyblockbuilder",
+    "version": "1.20.1-5.1.24"
+  },
+  "sophisticatedcore-1.20.1-1.2.20.894.jar": {
+    "modId": "sophisticatedcore",
+    "version": "1.2.20.894"
+  },
+  "sophisticatedstorage-1.20.1-1.3.9.1075.jar": {
+    "modId": "sophisticatedstorage",
+    "version": "1.3.9.1075"
+  },
+  "squatgrow-forge-5.3.0+mc1.20.1.jar": {
+    "modId": "squatgrow",
+    "version": "5.3.0+mc1.20.1"
+  },
+  "TConstruct-1.20.1-3.9.1.19.jar": {
+    "modId": "tconstruct",
+    "version": "3.9.1.19"
+  },
+  "thermal_expansion-1.20.1-11.0.1.29.jar": {
+    "modId": "thermal_expansion",
+    "version": "11.0.1"
+  },
+  "thermal_foundation-1.20.1-11.0.6.70.jar": {
+    "modId": "thermal_foundation",
+    "version": "11.0.6"
+  },
+  "thermaldrawers-1.0.jar": {
+    "modId": "thermaldrawers",
+    "version": "1.0"
+  },
+  "titanium-1.20.1-3.8.32.jar": {
+    "modId": "titanium",
+    "version": "3.8.32"
+  },
+  "travelersbackpack-forge-1.20.1-9.1.16.jar": {
+    "modId": "travelersbackpack",
+    "version": "9.1.16"
+  },
+  "XyCraft Core-0.6.22.jar": {
+    "modId": "xycraft_core",
+    "version": "0.6.22"
+  },
+  "XyCraft Machines-0.6.22.jar": {
+    "modId": "xycraft_machines",
+    "version": "0.6.22"
+  },
+  "XyCraft World-0.6.22.jar": {
+    "modId": "xycraft_world",
+    "version": "0.6.22"
+  }
+}

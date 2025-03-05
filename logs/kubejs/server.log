@@ -1,0 +1,56 @@
+[06:53:28] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[06:53:28] [INIT] Loaded plugins:
+[06:53:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[06:53:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[06:53:28] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
+[06:53:28] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[06:53:28] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[06:53:28] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[06:53:28] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[06:53:28] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[06:53:28] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[06:53:28] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[06:53:28] [INIT] - com.probejs.ProbeJSPlugin
+[06:53:28] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
+[06:53:28] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[06:53:28] [INIT] - net.yxiao233.kubejsthermalaugments.kubejs.ModKubeJSPlugin
+[06:53:28] [INIT] - com.alessandro.astages.integration.kubejs.AStageKubeJSPlugin
+[06:53:28] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[06:53:29] [INFO] Loaded script server_scripts:mods/create/mode.js in 0.003 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/exdeorum/barrel.js in 0.0 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/exdeorum/ex_material.js in 0.001 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/exdeorum/head.js in 0.0 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/exdeorum/peddels.js in 0.002 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/exdeorum/sieve.js in 0.001 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/galaxy_greg/earlygame.js in 0.0 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/galaxy_greg/gas_su.js in 0.001 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/galaxy_greg/minecraft.js in 0.001 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/galaxy_greg/ore_procces.js in 0.001 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/gt/crafting_gt.js in 0.0 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/tag/materials.js in 0.001 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/tag/material_replace.js in 0.001 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/tag/tag.js in 0.0 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/thermal/materials_thermal.js in 0.002 s
+[06:53:29] [INFO] Loaded script server_scripts:mods/tinkes/tinkers.js in 0.0 s
+[06:53:29] [INFO] Loaded 16/16 KubeJS server scripts in 0.033 s with 0 errors and 0 warnings
+[06:53:29] [INFO] Scripts loaded
+[06:53:29] [INFO] Initializing recipe event...
+[06:53:34] [INFO] Processing recipes...
+[06:53:34] [WARN] Failed to parse recipe 'bigger_ae2:quantum_flux_storage_cell[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[06:53:34] [WARN] Failed to parse recipe 'bigger_ae2:digital_singularity_flux_storage_cell[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[06:53:35] [WARN] Failed to parse recipe 'bigger_ae2:advanced_flux_cell_housing[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[06:53:35] [INFO] Found 46465 recipes in 1.257 s
+[06:53:36] [WARN] mods/galaxy_greg/earlygame.js#6: Trying to add more inputs than RecipeType can support, id: gtceu:auto_barrel_fluid_mixing/soulsand, Max fluidInputs: 1
+[06:53:36] [WARN] mods/galaxy_greg/earlygame.js#7: Trying to add more inputs than RecipeType can support, id: gtceu:auto_barrel_fluid_mixing/soulsoul, Max fluidInputs: 1
+[06:53:36] [WARN] mods/galaxy_greg/earlygame.js#8: Trying to add more inputs than RecipeType can support, id: gtceu:auto_barrel_fluid_mixing/slime_block, Max fluidInputs: 1
+[06:53:36] [WARN] mods/galaxy_greg/earlygame.js#9: Trying to add more inputs than RecipeType can support, id: gtceu:auto_barrel_fluid_mixing/mud, Max fluidInputs: 1
+[06:53:36] [WARN] mods/galaxy_greg/earlygame.js#10: Trying to add more inputs than RecipeType can support, id: gtceu:auto_barrel_fluid_mixing/clay, Max fluidInputs: 1
+[06:53:36] [WARN] mods/galaxy_greg/earlygame.js#11: Trying to add more inputs than RecipeType can support, id: gtceu:auto_barrel_fluid_mixing/ice, Max fluidInputs: 1
+[06:53:36] [WARN] mods/gt/crafting_gt.js#19: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[06:53:36] [WARN] mods/gt/crafting_gt.js#24: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[06:53:37] [INFO] Posted recipe events in 1.940 s
+[06:53:37] [WARN] Error parsing recipe gtceu:shapeless/centrifuged_ore_to_dust_neutronium[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"forge:tools/hammers"},[]],"result":{"item":"gtceu:neutronium_mixture_dust"}}: Item array cannot be empty, at least one item must be defined
+[06:53:39] [INFO] Added 170 recipes, removed 2834 recipes, modified 73 recipes, with 1 failed recipes in 1.254 s
+[06:53:39] [INFO] Collecting Custom Machine upgrades from JS scripts.
+[06:53:39] [INFO] Successfully added 0 Custom Machine upgrades
+[06:53:40] [INFO] Server resource reload complete!

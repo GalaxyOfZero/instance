@@ -1,0 +1,28 @@
+{
+	version: 1
+	uuid: "2fb86fef27fe423d86fb96f9c6b5a68b"
+	name: ""
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		6E5C263F254F2760: 1
+	}
+	started: {
+		12EA4D723790A0E2: 1739982797805L
+		5901D32D9B89F5F8: 1739982797805L
+		0000000000000001: 1739982797805L
+		6E5C263F254F2760: 1739982797805L
+		36447A4E0AD23F6A: 1740323658852L
+	}
+	completed: {
+		5901D32D9B89F5F8: 1739982797808L
+		6E5C263F254F2760: 1739982797808L
+	}
+	claimed_rewards: { }
+	player_data: {
+		2fb86fef27fe423d86fb96f9c6b5a68b: {
+			can_edit: 1b
+			chapter_pinned: 1b
+		}
+	}
+}

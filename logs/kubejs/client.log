@@ -1,0 +1,21 @@
+[07:20:16] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[07:20:16] [INIT] Loaded plugins:
+[07:20:16] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[07:20:16] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[07:20:16] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
+[07:20:16] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[07:20:16] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[07:20:16] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[07:20:16] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[07:20:16] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[07:20:16] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[07:20:16] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[07:20:16] [INIT] - com.probejs.ProbeJSPlugin
+[07:20:16] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
+[07:20:16] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[07:20:16] [INIT] - net.yxiao233.kubejsthermalaugments.kubejs.ModKubeJSPlugin
+[07:20:16] [INIT] - com.alessandro.astages.integration.kubejs.AStageKubeJSPlugin
+[07:20:16] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[07:20:16] [INFO] Loaded script client_scripts:jei.js in 0.005 s
+[07:20:16] [INFO] Loaded 1/1 KubeJS client scripts in 0.018 s with 0 errors and 0 warnings
+[07:20:23] [INFO] Client resource reload complete!

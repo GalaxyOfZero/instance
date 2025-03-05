@@ -1,0 +1,22 @@
+ServerEvents.recipes(event => {
+    event.remove({ output: /exdeorum:.*_compressed_sieve/})
+    event.remove({ type: 'exdeorum:compressed_sieve'})
+    event.remove({ output: 'exdeorum:compressed_sieve'})
+    event.remove({ type: 'exdeorum:compressed_hammer'})
+    event.remove({ id: /exdeorum:compressed_.*_hammer/})
+    event.remove({ output: /exdeorum:compressed_.*/})
+    event.remove({ input: /exdeorum:.*_ore_chunk/})
+    event.remove({ output: /exdeorum:.*_ore_chunk/})
+    event.remove({ output: 'exdeorum:mechanical_hammer'})
+    event.remove({ output: 'exdeorum:mechanical_sieve'})
+    event.remove({ input: 'exdeorum:mechanical_hammer'})
+    event.remove({ input: 'exdeorum:mechanical_sieve'})
+
+    event.remove({ output: 'exdeorum:sculk_core'})
+    event.remove({ output: 'exdeorum:crushed_deepslate'})
+    event.remove({ output: 'exdeorum:crushed_end_stone'})
+    event.remove({ output: 'exdeorum:crushed_netherrack'})
+
+    event.remove({ id: 'exdeorum:barrel_fluid_mixing/slime_block'})
+    event.remove({ id: 'exdeorum:barrel_mixing/slime_block_from_porcelain_bucket'})
+})

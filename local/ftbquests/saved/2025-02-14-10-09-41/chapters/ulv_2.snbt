@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ulv_2"
+	group: "1E0FC4EA21F735F7"
+	icon: "gtceu:ulv_machine_casing"
+	id: "77311894D7361FEE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "ULV"
+}

@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "multiblock_madnis"
+	group: ""
+	id: "36447A4E0AD23F6A"
+	order_index: 4
+	quest_links: [
+		{
+			id: "488C6C3865225DA3"
+			linked_quest: "07C5B4C5EE2F948D"
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			id: "2696B7A0AF61BE2D"
+			linked_quest: "390CB178FC2D2CCC"
+			x: -8.0d
+			y: -6.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["44F4FFE40BE292AD"]
+			description: ["the Steam Grinder can run &n8 Recipes in Parallel&r"]
+			icon: "gtceu:steam_grinder"
+			id: "32EDB5A329F96F31"
+			tasks: [
+				{
+					id: "21A9BE9DD21C7322"
+					item: "gtceu:steam_grinder"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "577F8BEED5C61FD3"
+					item: { Count: 22, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "6572B3893FB8DA89"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["390CB178FC2D2CCC"]
+			description: ["its a better Primitive Blast Furnace, it can be Automatet and it needs only haf of the Orginal Time!"]
+			icon: "gtceu:better_primitive_blast_furnase"
+			id: "2617EEA56896675A"
+			tasks: [
+				{
+					id: "45C7DD04F560297C"
+					item: "gtceu:better_primitive_blast_furnase"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "281BF2760871782A"
+					item: "gtceu:solid_machine_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "358C3CF0C6073969"
+					item: { Count: 8, id: "gtceu:steel_firebox_casing" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -6.5d
+		}
+	]
+	title: "Multiblock Madnis"
+}

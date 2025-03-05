@@ -1,0 +1,1735 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ulv"
+	group: ""
+	icon: "gtceu:ulv_machine_casing"
+	id: "75C4C0229F2D2798"
+	order_index: 1
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0EF1D3FDCA9AEDED"
+				"0172253D9FACC994"
+				"01F0E5BE0E21EBFF"
+			]
+			description: [""]
+			icon: "minecraft:iron_ingot"
+			id: "5094070DDE1BFA3D"
+			rewards: [{
+				id: "3F1948DD7EB3CB52"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3B4E995B2204B7F8"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3F80F7835E93BC00"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "0209FE8B6FDF44FA"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "284EE6BC65BCEE0C"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "3F148A4E69DD5207"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "32314B1CCA44A1DA"
+					item: "gtceu:lead_ingot"
+					type: "item"
+				}
+				{
+					id: "0A552ED60BC563C2"
+					item: "gtceu:tin_ingot"
+					type: "item"
+				}
+			]
+			title: "Base Resources"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"42FD93DB49BE3739"
+				"64F15C7160BF5CBB"
+			]
+			description: ["With all the parts combined, you finally get your hands on your first LV circuit! It might be a good idea to make a bunch of these beforehand, to aid in the push for LV machines."]
+			id: "20A12F3B992762F0"
+			rewards: [{
+				id: "18B8D5B1764AA972"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "498DA55A2FC533E7"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5094070DDE1BFA3D"]
+			description: ["Create's number one alloy, now with a better crafting ratio!"]
+			icon: "create:andesite_casing"
+			id: "039D327E919878BF"
+			rewards: [
+				{
+					id: "31BFCC0F9D05F431"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "6B7073CB362244FA"
+					item: "galaxy_greg:gregcoin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "563FD0E415C57D0B"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "009205E57A6190A0"
+					item: { Count: 8, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "19923404A54EA6DB"
+					item: { Count: 8, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "302B99D2E344BD10"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "3655062B523413B5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create:water_wheel"
+								}
+								{
+									Count: 1b
+									id: "create:large_water_wheel"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Basic Create"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["039D327E919878BF"]
+			description: ["Tired of needing two ingots per plate? The Mechanical Press lets you make plates for half the price early on!"]
+			icon: "create:mechanical_press"
+			id: "3E931D2E92BE9486"
+			rewards: [{
+				id: "4EEA3319DB4B3795"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5985F80DB2755FBC"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "1143CB34E3629935"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "Bulk Smash"
+			x: -1.1607142857142918d
+			y: -0.6267857142856528d
+		}
+		{
+			dependencies: ["5094070DDE1BFA3D"]
+			description: ["Extracting Latex from &lJungle Trees&r will be one of your first sources of rubber, after a bit of processing."]
+			icon: "thermal:device_tree_extractor"
+			id: "0A41C4FB379984C0"
+			rewards: [{
+				id: "31DF718651CC7363"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "29EEAB4D4E56EA63"
+					item: "thermal:device_tree_extractor"
+					type: "item"
+				}
+				{
+					id: "70C1462074F9F618"
+					item: "thermal:rubber"
+					type: "item"
+				}
+			]
+			title: "Latex Extraction"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5094070DDE1BFA3D"]
+			description: ["Every greg master needs their toolbelt fully stocked to get their first machines ready. We recommend starting with Iron or Wrought Iron tools, or taking a look at the shop!"]
+			hide_dependent_lines: true
+			id: "3D0F6CA8028C074B"
+			rewards: [{
+				id: "4B31B57CA206AD45"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "15ECABD057EAF7EC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/hammers"
+						}
+					}
+					title: "Any GregTech Hammer"
+					type: "item"
+				}
+				{
+					id: "6C43351270297092"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/files"
+						}
+					}
+					title: "Any GregTech File"
+					type: "item"
+				}
+				{
+					id: "07AD73E2A72B2126"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/screwdrivers"
+						}
+					}
+					title: "Any GregTech Screwdriver"
+					type: "item"
+				}
+				{
+					id: "46FD4FA440AC37D6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wire_cutters"
+						}
+					}
+					title: "Any GregTech Wire Cutters"
+					type: "item"
+				}
+				{
+					id: "4D366E4AA997C407"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wrenches"
+						}
+					}
+					title: "Any GregTech Wrench"
+					type: "item"
+				}
+				{
+					id: "11A8DDD2F1758A57"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/saws"
+						}
+					}
+					title: "Any GregTech Saw"
+					type: "item"
+				}
+				{
+					id: "0BBC49E7EE5D327F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mallets"
+						}
+					}
+					title: "Any GregTech Mallet"
+					type: "item"
+				}
+			]
+			title: "Tools for days"
+			x: 3.125d
+			y: -2.5d
+		}
+		{
+			dependencies: ["57614E5D2553C6DE"]
+			description: ["Wrought Iron is made by sizzling iron on a campfire or stove."]
+			id: "143BB2B07A083CC0"
+			rewards: [{
+				id: "349DE0275A34C06D"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C21E2E3178F27A3"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "Frying Iron"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["039D327E919878BF"]
+			description: ["By heating a mixer, you can start to make your first alloys."]
+			icon: "create:mechanical_mixer"
+			id: "3F74E863172E757F"
+			rewards: [{
+				id: "2CB72DD240C2BA5F"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2864B3BEE03A6DEB"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "2FCB339472386CB5"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "18B7127C36A87B62"
+					item: "createlowheated:basic_burner"
+					type: "item"
+				}
+				{
+					id: "31EE578685FC6A74"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Alloy Mixing"
+			x: -0.4202380952380622d
+			y: 0.13928571428579772d
+		}
+		{
+			dependencies: [
+				"0A41C4FB379984C0"
+				"2864B3BEE03A6DEB"
+			]
+			description: ["Using a heated Mechanical Mixer, combine some Latex and Sulfur into rubber, and slam them into sheets using a Mechanical Press."]
+			hide_dependent_lines: true
+			id: "46E41B05B9F6FA82"
+			rewards: [{
+				id: "29903159FF347441"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "03148525E61128DA"
+					item: { Count: 4, id: "thermal:cured_rubber" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "487F5EEEFEFBB7A8"
+					item: { Count: 4, id: "gtceu:rubber_plate" }
+					type: "item"
+				}
+			]
+			title: "Cable Insulation"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5257E6114C4B28EF"
+				"07C5B4C5EE2F948D"
+				"390CB178FC2D2CCC"
+			]
+			description: ["It is recommended to use Wrought Iron for your steel processing, as it cuts the recipe time down by a noticeable amount."]
+			hide_dependent_lines: true
+			icon: "gtceu:steel_ingot"
+			id: "64F15C7160BF5CBB"
+			rewards: [{
+				id: "7D9A25163207844A"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					count: 22L
+					id: "697EEC6859129B99"
+					item: { Count: 20, id: "gtceu:wrought_iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "325DA7DCD1E1FCEA"
+					item: { Count: 40, id: "minecraft:charcoal" }
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "176A1398B4F73436"
+					item: { Count: 20, id: "gtceu:steel_ingot" }
+					type: "item"
+				}
+			]
+			title: "Steel"
+			x: 1.532142857142901d
+			y: 5.567857142857264d
+		}
+		{
+			dependencies: ["3F74E863172E757F"]
+			dependency_requirement: "one_completed"
+			description: ["The most valuable alloy you can make right now, due to how much you will need for circuits."]
+			icon: "gtceu:bronze_ingot"
+			id: "0843E56CA39E9822"
+			rewards: [{
+				id: "658EFA92DAEBBE77"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3DB231EC8321A1DC"
+					item: "gtceu:red_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "78E2398E5480527A"
+					item: "gtceu:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "50AE6E53CC491379"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
+			title: "Base Alloys"
+			x: 0.5440476190476531d
+			y: -0.11071428571420228d
+		}
+		{
+			dependencies: [
+				"27BD18BC16FF84DF"
+				"44F4FFE40BE292AD"
+			]
+			description: ["Let's ignore the fact that this circuit board is just a plank of wood with some cables stuck to it with glue."]
+			icon: "gtceu:resin_circuit_board"
+			id: "7F716A5BCC5F6B34"
+			rewards: [{
+				id: "19281ED9DF35D470"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "037915BFFE05A997"
+					item: "gtceu:wood_dust"
+					type: "item"
+				}
+				{
+					id: "47084ADCAA3A5275"
+					item: "gtceu:resin_circuit_board"
+					type: "item"
+				}
+			]
+			title: "Circuit Board"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57614E5D2553C6DE"]
+			description: ["Making glass isn't as simple as smelting sand now. First, you must grind down some Sand and Flint, mix it together into Glass Dust, and then give it a sizzle on a campfire."]
+			icon: "minecraft:glass"
+			id: "7EE1BE4043827F35"
+			rewards: [{
+				id: "2EE1DAAA592513EE"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2313CA9D520D2E49"
+					item: "gtceu:quartz_sand_dust"
+					type: "item"
+				}
+				{
+					id: "6C119C653DFC3B39"
+					item: "gtceu:flint_dust"
+					type: "item"
+				}
+				{
+					id: "3911C8918AFD74D3"
+					item: "gtceu:glass_dust"
+					type: "item"
+				}
+				{
+					id: "26F13779F4DF2763"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "Glassworks"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"20A12F3B992762F0"
+				"36CD8B51E60B037A"
+			]
+			description: ["Now that you have LV Machine Hulls, you can construct a new multiblock to process your ores further. This will give you access to important resources, like gold and nickel."]
+			icon: {
+				Count: 1
+				id: "gtceu:primitive_ore_factory"
+				tag: { }
+			}
+			id: "397C622B06B1165A"
+			rewards: [{
+				id: "5900E311A3725A07"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "696CC5228C5FF928"
+					item: {
+						Count: 1
+						id: "gtceu:primitive_ore_factory"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "326A3E987EE01A79"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2C8B1591CF3EF710"
+					item: { Count: 4, id: "gtceu:bronze_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0A9249930F0600BD"
+					item: "gtceu:bronze_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "0B7EFD406E0E7A65"
+					item: { Count: 12, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "2FD2D65DACCAC16B"
+					item: { Count: 9, id: "gtceu:bronze_brick_casing" }
+					type: "item"
+				}
+			]
+			title: "Primitive Ore Factory"
+			x: -5.357142857142854d
+			y: 1.7660714285714931d
+		}
+		{
+			dependencies: ["5094070DDE1BFA3D"]
+			description: ["Pop this next to two water sources and you will never be thirsty again."]
+			icon: "thermal:device_water_gen"
+			id: "4491C4CD4AF75C93"
+			rewards: [{
+				id: "2EC04BA50FB49175"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16EB8EEFFA182EA2"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			title: "Infinite Water"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["68A092070EAFE524"]
+			description: ["A staple of any GregTech pack. Upgrade your coal into coke, and get some tasty creosote to coat your planks in."]
+			icon: "gtceu:coke_oven"
+			id: "07C5B4C5EE2F948D"
+			rewards: [{
+				id: "1C338F12A7AB53ED"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7F7327718F485838"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "543AC15CDC0E1B9D"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+				{
+					id: "02BCD1D1A603C9F5"
+					item: "gtceu:coke_oven_hatch"
+					type: "item"
+				}
+			]
+			title: "Coke Oven"
+			x: 0.75d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"0A41C4FB379984C0"
+				"26F13779F4DF2763"
+			]
+			description: ["Early fluid storage that can push and pull fluids. It accepts upgrades that can dramatically increase the storage capacity."]
+			id: "3013B0CF1D1F3E20"
+			rewards: [{
+				id: "137CBDB9A09F7CE2"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D34C297BA1F64B7"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Early Fluid Storage"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75F9E7F0DA150487"]
+			description: ["Using Crushing Wheels, you can automate gravel and sand. Crushing wheels have a set amount of time they need to process their items (based on their RPM), but can process up to a stack of items at a time. Smart Chutes are an easy way to pump a stack of items in at a time."]
+			id: "6C4EE5170B91D0EA"
+			optional: true
+			rewards: [{
+				id: "70F50B252635F623"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "3E1B548747A6F526"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			title: "Basic Cobbleworks"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EE1BE4043827F35"]
+			description: ["While Tempered Glass is typically made in an Arc Furnace, it can be made in a Stone Barrel with Lava and Glass. It will be needed to make the Rock Filtrator later."]
+			id: "6D23752791E9928A"
+			rewards: [{
+				id: "7BED1FF69A11CC20"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C4660A1923ED365"
+				item: "gtceu:tempered_glass"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5094070DDE1BFA3D"]
+			id: "4527D9DD77CAEC8C"
+			rewards: [{
+				id: "137D2587AABED0B7"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44653A3590BDFBA4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:flint_mortar"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										MaxDamage: 63
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:iron_mortar"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										MaxDamage: 255
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:wrought_iron_mortar"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										MaxDamage: 383
+									}
+									HideFlags: 2
+								}
+							}
+						]
+					}
+				}
+				title: "Mortar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4527D9DD77CAEC8C"]
+			hide_dependent_lines: true
+			icon: "gtceu:clay_dust"
+			id: "13B85E51524D2663"
+			rewards: [{
+				id: "6B858E3438FBB935"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "333D1C0FB0F43E7B"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "596E650FE44540ED"
+					item: "gtceu:clay_dust"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5094070DDE1BFA3D"
+				"4527D9DD77CAEC8C"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:brick_wooden_form"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1CD54EAA4772A1CA"
+			rewards: [{
+				id: "5E0689D512357B95"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5D1C3ECE19412FF3"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "farmersdelight:flint_knife"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:iron_knife"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:iron_knife"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											AttackDamage: 2.0f
+											AttackSpeed: 3.0f
+											Damage: 0
+											MaxDamage: 255
+										}
+										HideFlags: 2
+									}
+								}
+							]
+						}
+					}
+					title: "Knife"
+					type: "item"
+				}
+				{
+					id: "341C963F1BC6CCB7"
+					item: "gtceu:empty_wooden_form"
+					type: "item"
+				}
+				{
+					id: "528944B7180443E0"
+					item: {
+						Count: 1
+						id: "gtceu:brick_wooden_form"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wooden Form"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["039D327E919878BF"]
+			id: "57614E5D2553C6DE"
+			rewards: [{
+				id: "629F42A525D98B0F"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16D737FB49F4FA0C"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57614E5D2553C6DE"]
+			description: ["a better way to switch your fan setup"]
+			id: "405F60CAD3653CD2"
+			optional: true
+			rewards: [{
+				id: "4CE0A6A02A9016E9"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "53482A3E96CE65DA"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4527D9DD77CAEC8C"]
+			hide_dependent_lines: true
+			icon: "galaxy_greg:sand_dust"
+			id: "3898DBC567AB10DE"
+			rewards: [{
+				id: "488D3ECFBE2F1D06"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1BD5DF807C66CD87"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "037F4B369660CD41"
+					item: "galaxy_greg:sand_dust"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4527D9DD77CAEC8C"]
+			hide_dependent_lines: true
+			icon: "gtceu:brick_dust"
+			id: "3AFB69E68ECEB1D6"
+			rewards: [{
+				id: "5746D1A9908AABFC"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1145DF2993EC5180"
+					item: "minecraft:brick"
+					type: "item"
+				}
+				{
+					id: "68CA82C71BD5CE96"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					id: "35617596CDDC4387"
+					item: "gtceu:brick_dust"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"171A8170AB7354EC"
+				"13B85E51524D2663"
+				"3898DBC567AB10DE"
+			]
+			icon: "galaxy_greg:compressed_grout"
+			id: "5BB1643FA4943A4B"
+			rewards: [{
+				id: "3C899197D084E487"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1AF31CF2A956C5DB"
+					item: "galaxy_greg:grout_dust"
+					type: "item"
+				}
+				{
+					id: "0523E98D4B2A4852"
+					item: "galaxy_greg:compressed_grout"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4527D9DD77CAEC8C"]
+			hide_dependent_lines: true
+			icon: "gtceu:flint_dust"
+			id: "171A8170AB7354EC"
+			rewards: [{
+				id: "79AA3CFFDEDD4400"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "71E70904B93010FD"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "72873CB6387EBFFE"
+					item: "gtceu:flint_dust"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"13B85E51524D2663"
+				"3898DBC567AB10DE"
+			]
+			icon: "gtceu:compressed_coke_clay"
+			id: "68A092070EAFE524"
+			rewards: [{
+				id: "6DC9851E48178FB2"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "403021112073CE86"
+					item: "gtceu:compressed_coke_clay"
+					type: "item"
+				}
+				{
+					id: "31E8CDCA3FD0619B"
+					item: "gtceu:coke_oven_brick"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3AFB69E68ECEB1D6"
+				"13B85E51524D2663"
+			]
+			icon: "gtceu:compressed_fireclay"
+			id: "6DFE8ABF69A8FDAD"
+			rewards: [{
+				id: "0B9F431B2A9D9769"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "34217275495A5865"
+					item: "gtceu:fireclay_dust"
+					type: "item"
+				}
+				{
+					id: "3FC994C7F6B28F25"
+					item: "gtceu:compressed_fireclay"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7BF88828F3A6C2CD"]
+			id: "27BD18BC16FF84DF"
+			rewards: [{
+				id: "2E21862233F6651E"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F8672F548C2D684"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3E931D2E92BE9486"
+				"0843E56CA39E9822"
+			]
+			id: "7BF88828F3A6C2CD"
+			rewards: [{
+				id: "45A89E1DC6D062A5"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "183353D13F505B58"
+				item: "gtceu:bronze_machine_casing"
+				type: "item"
+			}]
+			title: "Steam age"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BF88828F3A6C2CD"]
+			id: "44F4FFE40BE292AD"
+			rewards: [{
+				id: "45CBE10FC008EA3D"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38E13B99CF64B25F"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EE1BE4043827F35"]
+			icon: "gtceu:glass_tube"
+			id: "1B03E90F9F1D64C9"
+			rewards: [{
+				id: "308ECFE37EBEBAD5"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4B8C00ECD3872B5E"
+					item: "minecraft:glass_pane"
+					type: "item"
+				}
+				{
+					id: "2A995EB81946AFA0"
+					item: "gtceu:glass_tube"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7BF88828F3A6C2CD"]
+			id: "4FE71C249B8EB18A"
+			rewards: [{
+				id: "6AB9A64C4A0314D1"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7636D571C5BA1851"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07C5B4C5EE2F948D"]
+			id: "5AFFEDCBEBEFF914"
+			rewards: [{
+				id: "246B9B4554C034CD"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07522B3F03A3B4E5"
+				item: "gtceu:creosote_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["039D327E919878BF"]
+			icon: "create:mechanical_crafter"
+			id: "75F9E7F0DA150487"
+			rewards: [{
+				id: "77D00230DB754838"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 21L
+					id: "59A29081F050AEC5"
+					item: { Count: 21, id: "create:mechanical_crafter" }
+					type: "item"
+				}
+				{
+					id: "469F36C8C43F16A5"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					id: "782F2310C3ECB234"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
+			title: "Mechanical Crafting"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7F716A5BCC5F6B34"
+				"46E41B05B9F6FA82"
+				"1B03E90F9F1D64C9"
+			]
+			icon: "gtceu:vacuum_tube"
+			id: "42FD93DB49BE3739"
+			rewards: [{
+				id: "740532D73A2F720F"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0201E1D70B0DF171"
+					item: "gtceu:resin_printed_circuit_board"
+					type: "item"
+				}
+				{
+					id: "17AB2C1FD430461C"
+					item: "gtceu:vacuum_tube"
+					type: "item"
+				}
+				{
+					id: "3A6EC305B3978637"
+					item: "gtceu:resistor"
+					type: "item"
+				}
+				{
+					id: "1D61677697CE2994"
+					item: "gtceu:sticky_resin"
+					type: "item"
+				}
+			]
+			title: "Basic Circet Parts (LV)"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"143BB2B07A083CC0"
+				"64F15C7160BF5CBB"
+				"46E41B05B9F6FA82"
+			]
+			icon: "gtceu:lv_machine_hull"
+			id: "36CD8B51E60B037A"
+			rewards: [{
+				id: "01A64E8E6A9A7F90"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "08F8812255126DA1"
+					item: "gtceu:lv_machine_casing"
+					type: "item"
+				}
+				{
+					id: "2C847392A0B986CE"
+					item: "gtceu:lv_machine_hull"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5AFFEDCBEBEFF914"]
+			id: "227B510DED637BA8"
+			rewards: [{
+				id: "13E9631CE94D7518"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AA3345AB75F4767"
+				item: "gtceu:treated_wood_planks"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5094070DDE1BFA3D"]
+			id: "22A3830B1D8A9940"
+			rewards: [{
+				id: "7FEB670CB6372222"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11EAE54CE524C4C6"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6DFE8ABF69A8FDAD"]
+			description: [
+				"It's your very first multiblock! "
+				""
+				"This bad boy will make you steel, albeit slowly. It isn't possible to automate sadly, but there is a better version on the horizon."
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "390CB178FC2D2CCC"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 32L
+					id: "0B97B97EE13093E6"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+				{
+					id: "5257E6114C4B28EF"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+			]
+			title: "Primitive Steelworks"
+			x: 2.25d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"5BB1643FA4943A4B"
+				"46FC8CA753679813"
+			]
+			icon: "tconstruct:seared_melter"
+			id: "01E0390949132A4E"
+			rewards: [{
+				id: "6BC94FD0C7C68785"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2858E2CDE37209B8"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "5EF40F5CE5D59AAA"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			icon: "tconstruct:smeltery_controller"
+			id: "46FC8CA753679813"
+			rewards: [{
+				id: "258D3EFB51EFAA23"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "646A52A847E09461"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "341BE41D02D31071"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5BB1643FA4943A4B"
+				"46FC8CA753679813"
+			]
+			icon: "tconstruct:seared_table"
+			id: "2A8C990300931A69"
+			rewards: [{
+				id: "390E584DC47A7449"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "14255B71B42CB3FA"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "4BF55F18D19BE691"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "12B837E188194A52"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+			]
+			title: "Basic Casting"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["46FC8CA753679813"]
+			icon: "tconstruct:pick_head_cast"
+			id: "614B8B853117BD0F"
+			rewards: [{
+				id: "5D630FCDA5BE68F4"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "75A75BBA0E75E375"
+					item: "tconstruct:pick_head_cast"
+					type: "item"
+				}
+				{
+					id: "198B54F5A0B5380D"
+					item: "tconstruct:small_axe_head_cast"
+					type: "item"
+				}
+				{
+					id: "28E095AD85EC430A"
+					item: "tconstruct:tool_handle_cast"
+					type: "item"
+				}
+				{
+					id: "033AF5F334B9447F"
+					item: "tconstruct:repair_kit_cast"
+					type: "item"
+				}
+				{
+					id: "55DC6909EF956658"
+					item: "tconstruct:ingot_cast"
+					type: "item"
+				}
+				{
+					id: "0B68CEBFED3C5614"
+					item: "tconstruct:tough_binding_cast"
+					type: "item"
+				}
+				{
+					id: "555B96FC1346B5F1"
+					item: "tconstruct:boots_plating_cast"
+					type: "item"
+				}
+				{
+					id: "7B057B361FD0885D"
+					item: "tconstruct:leggings_plating_cast"
+					type: "item"
+				}
+				{
+					id: "3237B2852DEF7184"
+					item: "tconstruct:chestplate_plating_cast"
+					type: "item"
+				}
+			]
+			title: "Basic Casting"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["397C622B06B1165A"]
+			icon: "gtceu:copper_dust"
+			id: "05A255E95CC24E99"
+			optional: true
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "46EFCEDF5AFB4387"
+					item: "gtceu:copper_dust"
+					type: "item"
+				}
+				{
+					id: "139475BBE73DF3CC"
+					item: "gtceu:nickel_dust"
+					type: "item"
+				}
+				{
+					id: "09BA760AEAE1475E"
+					item: "gtceu:gold_dust"
+					type: "item"
+				}
+				{
+					id: "7089A716B97D3D83"
+					item: "gtceu:stone_dust"
+					type: "item"
+				}
+			]
+			title: "Copper Processing"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["397C622B06B1165A"]
+			icon: "gtceu:iron_dust"
+			id: "7F4A14A484675B54"
+			optional: true
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "3BFE1F9B5816DB7B"
+					item: "gtceu:iron_dust"
+					type: "item"
+				}
+				{
+					id: "7A66D796B5C75F9F"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+				{
+					id: "1C66D4F71AAFEB91"
+					item: "gtceu:nickel_dust"
+					type: "item"
+				}
+				{
+					id: "182045BE3701F35E"
+					item: "gtceu:stone_dust"
+					type: "item"
+				}
+			]
+			title: "Iron Processing"
+			x: -6.935714285714283d
+			y: 3.0196428571429195d
+		}
+		{
+			dependencies: ["397C622B06B1165A"]
+			icon: "gtceu:tin_dust"
+			id: "315AE64D95DE63D6"
+			optional: true
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "7139E49F8B0BBBCA"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+				{
+					id: "654F33C94FBCB553"
+					item: "gtceu:iron_dust"
+					type: "item"
+				}
+				{
+					id: "159BC7DA210DF25E"
+					item: "gtceu:zinc_dust"
+					type: "item"
+				}
+				{
+					id: "0EDF7D9A7975AAF4"
+					item: "gtceu:stone_dust"
+					type: "item"
+				}
+			]
+			title: "Tin Processing"
+			x: -6.935714285714283d
+			y: 2.0767857142857835d
+		}
+		{
+			dependencies: ["397C622B06B1165A"]
+			icon: "gtceu:magnetite_dust"
+			id: "5AA06267156CD95D"
+			optional: true
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "779C33FBAD7947FB"
+					item: "gtceu:magnetite_dust"
+					type: "item"
+				}
+				{
+					id: "126DB670D59D1A87"
+					item: "gtceu:gold_dust"
+					type: "item"
+				}
+				{
+					id: "2C3FEAC241F04520"
+					item: "gtceu:stone_dust"
+					type: "item"
+				}
+			]
+			title: "Magnetite Processing"
+			x: -6.449999999999996d
+			y: 2.562500000000071d
+		}
+		{
+			dependencies: ["397C622B06B1165A"]
+			icon: "gtceu:stibnite_dust"
+			id: "54E7FE4D5D607589"
+			optional: true
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "44B5A2C9563CE926"
+					item: "gtceu:stibnite_dust"
+					type: "item"
+				}
+				{
+					id: "64569423554FD24C"
+					item: "gtceu:antimony_dust"
+					type: "item"
+				}
+				{
+					id: "558DAE812FEDC524"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "4210B591F97DA88C"
+					item: "gtceu:stone_dust"
+					type: "item"
+				}
+			]
+			title: "Stihnite Processing"
+			x: -7.421428571428571d
+			y: 2.562500000000071d
+		}
+		{
+			dependencies: ["397C622B06B1165A"]
+			icon: "gtceu:sphalerite_dust"
+			id: "4B31A4EE1A0880F8"
+			optional: true
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "42316D42897FFD16"
+					item: "gtceu:sphalerite_dust"
+					type: "item"
+				}
+				{
+					id: "495A51BE4B72D27E"
+					item: "gtceu:gallium_dust"
+					type: "item"
+				}
+				{
+					id: "27395574216621B5"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "3B8FDB186CEBF86E"
+					item: "gtceu:stone_dust"
+					type: "item"
+				}
+			]
+			title: "Shalerite Processing"
+			x: -6.907142857142851d
+			y: 0.9910714285714946d
+		}
+		{
+			dependencies: ["397C622B06B1165A"]
+			icon: "gtceu:galena_dust"
+			id: "4A79C0D0D0E19FCF"
+			optional: true
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "55778A8BD44D4D31"
+					item: "gtceu:galena_dust"
+					type: "item"
+				}
+				{
+					id: "65B4EEC820C19D91"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "2634F279CEE1C3C9"
+					item: "gtceu:silver_dust"
+					type: "item"
+				}
+				{
+					id: "27F97F67F764CE8E"
+					item: "gtceu:stone_dust"
+					type: "item"
+				}
+			]
+			title: "Galener Processing"
+			x: -7.392857142857146d
+			y: 1.5053571428572141d
+		}
+	]
+	title: "ULV/Steam Age"
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/orientable",
+    "textures": {
+        "front": "galaxy_greg:block/machine/generato/generator_front_active",
+        "side": "galaxy_greg:block/machine/generato/generator_side",
+        "top": "galaxy_greg:block/machine/generato/gas_turbine/generator_top_active",
+        "bottom": "galaxy_greg:block/machine/generato/generator_bottom"
+    }
+}
