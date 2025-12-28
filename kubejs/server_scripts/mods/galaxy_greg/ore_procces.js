@@ -5,6 +5,7 @@ ServerEvents.recipes(event =>{
     event.recipes.gtceu.primitive_ore_processing('iron_ore_processing')
         .itemInputs('gtceu:crushed_iron_ore')
         .inputFluids('minecraft:water 100')
+        .inputFluids(Fluid.of('gtceu:steam'), 10).perTick(true)
         .itemOutputs('gtceu:iron_dust')
         .chancedOutput('gtceu:iron_dust', 5000, 0)
         .chancedOutput('gtceu:nickel_dust', 2500, 0)
