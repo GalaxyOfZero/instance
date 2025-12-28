@@ -1,25 +1,1147 @@
 {
+	autofocus_id: "781E29FF7E179F6F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "lv"
 	group: ""
-	icon: "gtceu:assembly_line_casing"
-	id: "535E00ED45FB8009"
+	icon: "gtceu:steel_ingot"
+	id: "7D22A8B79261CD8F"
 	order_index: 2
-	quest_links: [
+	quest_links: [ ]
+	quests: [
 		{
-			id: "727E207EC131B40E"
-			linked_quest: "20A12F3B992762F0"
+			dependencies: ["64F15C7160BF5CBB"]
+			id: "27C811CBD873B7E3"
+			rewards: [{
+				id: "083F6D02294C4D43"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5DF1CE1A667690BC"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
 			x: 0.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
-			id: "1F81B726DA104150"
-			linked_quest: "36CD8B51E60B037A"
+			dependencies: ["27C811CBD873B7E3"]
+			id: "0CB9D5046A480F33"
+			rewards: [{
+				id: "595DD23315DA0B4C"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E676637B81A0926"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["27C811CBD873B7E3"]
+			id: "69A67DFA27D75D4F"
+			rewards: [{
+				id: "6DDC2B7A9035C3B4"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FEAF74C7503F08C"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69A67DFA27D75D4F"]
+			id: "3FEF201811BE4163"
+			rewards: [{
+				id: "78CF3B2025677433"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67A0696D03F01A0F"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FEF201811BE4163"]
+			id: "1769C41D27095E83"
+			rewards: [{
+				id: "3C93F503D73A29BE"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F4750B71A84C5A3"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69A67DFA27D75D4F"]
+			id: "014F4B8FD9AD55F7"
+			rewards: [{
+				id: "3DA3C86429BFD56E"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "719A462802965BBE"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69A67DFA27D75D4F"]
+			id: "1963F7EE14C490D0"
+			rewards: [{
+				id: "7DF7F62768023677"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF294080FC0EC24"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"014F4B8FD9AD55F7"
+				"1769C41D27095E83"
+			]
+			id: "300CC62C2E30EE26"
+			rewards: [{
+				id: "12614D9E0E6FAD7F"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65F604F7F73C06F6"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["300CC62C2E30EE26"]
+			id: "6E4B3F7B1624CA13"
+			rewards: [{
+				id: "79077793BD35066B"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "301A3D45EB0D7C92"
+				item: "exdeorum:flint_mesh"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27C811CBD873B7E3"]
+			id: "4189D7638919CF96"
+			rewards: [{
+				id: "1BB259AFAC285378"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BBB01E8C9812C14"
+				item: "gtceu:lv_alloy_smelter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69A67DFA27D75D4F"]
+			id: "31CED9BCB2D31370"
+			rewards: [{
+				id: "18ED3E67E49B17FA"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B984EFC876FF8B2"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69A67DFA27D75D4F"]
+			id: "06364BB267D849F1"
+			rewards: [{
+				id: "33641665ECF99DA2"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47D721024372F47C"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27C811CBD873B7E3"]
+			id: "308D2B3E4E93E626"
+			rewards: [{
+				id: "03667E80499BE59A"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08E60843B46EFA9E"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FEF201811BE4163"]
+			id: "237B328898882C5E"
+			rewards: [{
+				id: "1FC0265C8395652E"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A734006F234D1B8"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 5.875000000000007d
+			y: 3.767857142857146d
+		}
+		{
+			dependencies: ["3FEF201811BE4163"]
+			id: "24E6CC11C92E2FB3"
+			rewards: [{
+				id: "353D9B55DCE1EFCA"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "382764E41B47039F"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3FEF201811BE4163"]
+			id: "04CA00B950D83892"
+			rewards: [{
+				id: "7045E2E2F925963D"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E9FFC1D6DFCB6CC"
+				item: "gtceu:lv_macerator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1963F7EE14C490D0"]
+			id: "2EC2F46E06FF9950"
+			rewards: [{
+				id: "0E84B21DE557A866"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59E5DD692729083E"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1963F7EE14C490D0"]
+			id: "1288306C2B655CE0"
+			rewards: [{
+				id: "108E69F7EF27F33F"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E24872D16D58904"
+				item: "gtceu:lv_fluid_solidifier"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3FEF201811BE4163"]
+			id: "41B6E5D61B7F043F"
+			rewards: [{
+				id: "2D5E52A449C97356"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CB06D6DA60ADA68"
+				item: "gtceu:lv_forge_hammer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["69A67DFA27D75D4F"]
+			id: "4FBEFFE7B92E35B7"
+			rewards: [{
+				id: "7A0B6F52674F6C78"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1343B67ECAA77038"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4FBEFFE7B92E35B7"]
+			id: "49498C41CA45236C"
+			rewards: [{
+				id: "4DA9BBC4E793CBAA"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E971A11F27CD423"
+				item: "gtceu:graphite_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["49498C41CA45236C"]
+			id: "64024DD15B5DADC9"
+			rewards: [{
+				id: "282B1B28522DFA41"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21DBF03BF56CC8FF"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"64024DD15B5DADC9"
+				"56D0CEFDF40A05E4"
+			]
+			id: "7E750B9955FD62B7"
+			rewards: [{
+				id: "48E2C4F6DA0EA938"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E6AEF6A0F7F6586"
+				item: "gtceu:tempered_glass"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E750B9955FD62B7"]
+			hide_dependent_lines: true
+			id: "21543739405B1F0E"
+			rewards: [{
+				id: "3E6573C2A25BA1BD"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44B674F938FCA074"
+				item: "thermal:obsidian_glass"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"300CC62C2E30EE26"
+				"21543739405B1F0E"
+			]
+			id: "265E8CC1A7020A5B"
+			rewards: [{
+				id: "02AB7684D8087632"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F2F14F5648253A9"
+				item: "galaxy_greg:lv_augment"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["27C811CBD873B7E3"]
+			id: "158F516999A2699C"
+			rewards: [{
+				id: "68547D83E56D9689"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A70175C85D100C7"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1963F7EE14C490D0"]
+			hide_dependent_lines: true
+			id: "18484AE6E55278CA"
+			rewards: [{
+				id: "61CA767A78A24828"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F7C7ED4EA50F113"
+				item: "gtceu:lv_gas_collector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69A67DFA27D75D4F"]
+			id: "4B7245BF43A01BAD"
+			rewards: [{
+				id: "779111D9F0F0FE23"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66F1A8BCA7FE04B1"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7088F83F73C1F722"]
+			id: "56D0CEFDF40A05E4"
+			rewards: [{
+				id: "774CBEB98A0E9EBE"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "286C19F052A76243"
+					item: "gtceu:oxygen_bucket"
+					type: "item"
+				}
+				{
+					id: "3CA11BAC7F7709C3"
+					item: "gtceu:nitrogen_bucket"
+					type: "item"
+				}
+			]
+			title: "Oxygen and Nitrogen"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"06364BB267D849F1"
+				"44A283F34C2DCFBB"
+				"0C14052CF78DF74E"
+			]
+			icon: "gtceu:sulfur_dioxide_bucket"
+			id: "5427623DA5292291"
+			rewards: [{
+				id: "2588F3392C1708E9"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1B166026336DC55F"
+					title: "Sulfur Dioxide"
+					type: "checkmark"
+				}
+				{
+					id: "159559460B1E50C5"
+					item: "gtceu:sulfur_dioxide_bucket"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5427623DA5292291"]
+			icon: "gtceu:sulfur_trioxide_bucket"
+			id: "29A63CDD33D1069E"
+			rewards: [{
+				id: "78E9ED47D1D6270F"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5FBE2C783D07CEB0"
+					title: "Sulfur Trioxide"
+					type: "checkmark"
+				}
+				{
+					id: "32E8E30CA8A570EF"
+					item: "gtceu:sulfur_trioxide_bucket"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29A63CDD33D1069E"]
+			id: "2C5DA1896F275550"
+			rewards: [{
+				id: "6A263A48CD2E6495"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "77995E5CCF7AAC5D"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2C5DA1896F275550"]
+			id: "49984AE8EF94B9A0"
+			rewards: [{
+				id: "4316411097164417"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0E0062F2899EF7C7"
+				item: "gtceu:sodium_bisulfate_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["49984AE8EF94B9A0"]
+			id: "3184995EBA22F540"
+			rewards: [{
+				id: "49EEC89CABA2EF54"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "17A7B16E02144A7D"
+				item: "gtceu:sodium_persulfate_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["49984AE8EF94B9A0"]
+			id: "1008CF0C59AE7056"
+			rewards: [{
+				id: "35B9891DC5401B77"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2B55A3FB81E2B08C"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1008CF0C59AE7056"]
+			id: "63154C896DDB6F3A"
+			rewards: [{
+				id: "4F1EE0842FDD2416"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "572A6E419091C9B2"
+				item: "gtceu:iron_iii_chloride_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"5192E37D867B7E8C"
+				"278A5F76F3923490"
+			]
+			id: "0FCB10159A8E572F"
+			rewards: [{
+				id: "7801AC051CFEC88C"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1221FFF2D9C09D1F"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0FCB10159A8E572F"]
+			description: [
+				"Your start in MV tier, automate Aluminium is the Best Option."
+				"in &8LV&r &f&nElectrolyzing&r &n&1Sapphire dust&r&r to get &3Aluminium dust&r and a ton of &bOxygen&r"
+				""
+				"{@pagebreak}"
+				"in MV in &8LV&r &f&nElectrolyzing&r &n&1Clay dust&r&r to get &3Aluminium dust&r"
+			]
+			id: "62BB54F3EE1A0966"
+			rewards: [{
+				id: "08DBA3BC91FD512E"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "77404F87F878CAFD"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["27C811CBD873B7E3"]
+			id: "6B1D70CD2D99D203"
+			rewards: [{
+				id: "2C8BE0D61D949E7C"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D7B00D972527278"
+				item: "gtceu:lv_super_chest"
+				type: "item"
+			}]
 			x: -2.0d
-			y: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["300CC62C2E30EE26"]
+			id: "5CAA3E0391E2652E"
+			rewards: [{
+				id: "1DA6C17645303F18"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26C11F90C17DC798"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"18484AE6E55278CA"
+				"4FBEFFE7B92E35B7"
+			]
+			icon: "gtceu:air_bucket"
+			id: "7088F83F73C1F722"
+			rewards: [{
+				id: "0826AF1D705F19B2"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "422D139F6613C064"
+				title: "Air"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["06364BB267D849F1"]
+			id: "44A283F34C2DCFBB"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "2E660F6DA91D94A4"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["06364BB267D849F1"]
+			id: "0C14052CF78DF74E"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "256BF3C896ECBDD0"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["014F4B8FD9AD55F7"]
+			id: "23D8FD995853ABC8"
+			rewards: [{
+				id: "35924047F2EED644"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30369B7AC0B66B37"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["300CC62C2E30EE26"]
+			id: "5192E37D867B7E8C"
+			rewards: [{
+				id: "1F130FA1CAF288FB"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C4A0DE9253D2C54"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["69A67DFA27D75D4F"]
+			id: "7BE54C0DDEDF3001"
+			rewards: [{
+				id: "57F7DCD8CAC294BD"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DF38847DB570C28"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "LV base Power"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1963F7EE14C490D0"
+				"5E849819EF354D47"
+			]
+			id: "2561DB4A5ADBD8EA"
+			rewards: [{
+				id: "4E52AA5E3FE37500"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00F36DFC7E99F33C"
+				item: "gtceu:lv_super_tank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["196B6D93F7DB6E5B"]
+			hide_dependent_lines: true
+			id: "5E849819EF354D47"
+			rewards: [{
+				id: "081F62D052B5A53A"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "5B8C55B68DF45150"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7B53E61D23AFCBBA"
+				"28144EA48DB8B700"
+			]
+			id: "72378DD1C4172A8C"
+			rewards: [{
+				id: "3F85EB9F3CC01908"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "081A904C394E9785"
+				item: "gtceu:fermented_biomass_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1963F7EE14C490D0"]
+			hide_dependent_lines: true
+			id: "7B53E61D23AFCBBA"
+			rewards: [{
+				id: "1CE47DB058926412"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52A06860A7189B01"
+				item: "gtceu:lv_fermenter"
+				type: "item"
+			}]
+			x: 3.2321428571428683d
+			y: -0.7654761904761997d
+		}
+		{
+			dependencies: ["1963F7EE14C490D0"]
+			hide_dependent_lines: true
+			id: "5B262B7086DBDDD4"
+			rewards: [{
+				id: "0EE3096CF1FC3119"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "688FB513DBEE4D87"
+				item: "gtceu:lv_brewery"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B262B7086DBDDD4"]
+			id: "28144EA48DB8B700"
+			rewards: [{
+				id: "018EBED02BEB7A6B"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "581A654B90E6B743"
+				item: "gtceu:biomass_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1963F7EE14C490D0"]
+			id: "19116A0F11D99DF6"
+			rewards: [{
+				id: "2B78F6ECECC6D878"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06907099E6DFF587"
+				item: "gtceu:lv_distillery"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72378DD1C4172A8C"]
+			id: "5FFD61AA55618C8F"
+			rewards: [{
+				id: "7CE7CC48940FB4B0"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6A9C9C5DA2817503"
+				item: "gtceu:ethanol_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"5FFD61AA55618C8F"
+				"2C5DA1896F275550"
+			]
+			id: "196B6D93F7DB6E5B"
+			rewards: [{
+				id: "3107345514350FDC"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7028962273CDFEAD"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["300CC62C2E30EE26"]
+			id: "278A5F76F3923490"
+			rewards: [{
+				id: "2C4847B6B7FA45B0"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33DFF4759280BD6C"
+				item: "gtceu:heatproof_machine_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["300CC62C2E30EE26"]
+			description: ["Pop this next to two water sources and you will never be thirsty again."]
+			icon: "thermal:device_water_gen"
+			id: "67CD06076C493D54"
+			rewards: [{
+				id: "7138ABAF42E25F84"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6248AD949D4EC946"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			title: "Infinite Water"
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["158F516999A2699C"]
+			id: "471EB0FEAB586341"
+			rewards: [{
+				id: "1C5B2CB19DB2848F"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0038DCB99E56E25A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:green_sapphire_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:sapphire_dust"
+							}
+						]
+					}
+				}
+				title: "Sapphire"
+				type: "item"
+			}]
+			title: "The way of Aluminium (LV)"
+			x: -1.4464285714285765d
+			y: -2.1160714285714235d
+		}
+		{
+			dependencies: ["471EB0FEAB586341"]
+			id: "1B2C46409777CC6F"
+			rewards: [{
+				id: "4FEA6528793B296B"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "1F020221CBEAACF2"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.074404761904759d
+		}
+		{
+			dependencies: ["27C811CBD873B7E3"]
+			id: "0D666E28658134D9"
+			rewards: [{
+				id: "19208E93CBE3043C"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D3A766A60F7AF4F"
+					item: "gtceu:resin_circuit_board"
+					type: "item"
+				}
+				{
+					id: "18D49172E752DBBC"
+					item: "gtceu:resin_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0D666E28658134D9"
+				"0CB9D5046A480F33"
+			]
+			id: "419D92EE69B31C1B"
+			rewards: [{
+				id: "0B99CB6EDF89EEF1"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "662A0CB63DD70B6D"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1B03E90F9F1D64C9"
+				"3F9F7FCE990E71ED"
+				"08FF40F582D37455"
+			]
+			description: ["Your First ULV Circuit! looks weird~"]
+			icon: "gtceu:vacuum_tube"
+			id: "42FD93DB49BE3739"
+			rewards: [{
+				id: "740532D73A2F720F"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2E8A75B3D1E67EAD"
+					item: "gtceu:glass_tube"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3243FB8A7EBF3E72"
+					item: { Count: 2, id: "gtceu:steel_bolt" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "20CBB8E9A002E946"
+					item: { Count: 3, id: "gtceu:copper_single_wire" }
+					type: "item"
+				}
+				{
+					id: "5BFF131E710AF274"
+					item: "gtceu:vacuum_tube"
+					type: "item"
+				}
+			]
+			title: "First Circet (ULV)"
+			x: -1.5d
+			y: 2.2232142857142776d
 		}
 	]
-	quests: [ ]
 	title: "LV"
 }

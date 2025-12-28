@@ -23,14 +23,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getBlock |  |  | BlockContainerJS | ✘ |
 | getItem |  |  | ItemStack | ✘ |
-| getEntity |  |  | Entity | ✘ |
+| getBlock |  |  | BlockContainerJS | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getFacing |  |  | Direction | ✘ |
+| getPlayer |  |  | Player | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
-| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -43,17 +43,17 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `BlockContainerJS getBlock()`
-```
-The block that was left clicked.
-```
-
 - `ItemStack getItem()`
 ```
 The item that was used to left click the block.
 ```
 
-- `Entity getEntity()`
+- `BlockContainerJS getBlock()`
+```
+The block that was left clicked.
+```
+
+- `LivingEntity getEntity()`
 ```
 The player that left clicked the block.
 ```
@@ -61,6 +61,15 @@ The player that left clicked the block.
 - `Direction getFacing()`
 ```
 The face of the block that was left clicked.
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -79,15 +88,6 @@ Checks if the player has the specified game stage
 
 ```
 Adds the specified game stage to the player
-```
-
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
 ```
 
 - `Object exit(Object var0)`

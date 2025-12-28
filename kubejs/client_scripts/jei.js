@@ -1,4 +1,4 @@
-JEIEvents.hideItems( e => {
+JEIEvents.hideItems(event => {
     const hideItems = [
         'tconstruct:rose_gold_ingot',
         'tconstruct:rose_gold_nugget',
@@ -22,12 +22,11 @@ JEIEvents.hideItems( e => {
         'create:zinc_nugget',
         'create:zinc_block',
         'exdeorum:sculk_core',
-        'exdeorum:crushed_deepslate',
         'exdeorum:crushed_end_stone',
-        'exdeorum:crushed_netherrack',
+        'exdeorum:crushed_netherrack'
     ]
     hideItems.forEach(hide =>{
-        e.hide(`${hide}`)
+        event.hide(`${hide}`)
     })
     const mod = [
         'create:',
@@ -134,7 +133,15 @@ JEIEvents.hideItems( e => {
         'twinite_bucket',
         'shellite_bucket',
         'soul_infused_bucket',
-        'refined_fuel_bucket'
+        'refined_fuel_bucket',
+        'xycraft_world:raw_aluminum',
+        'xycraft_world:aluminum_ingot',
+        'xycraft_world:aluminum_nugget',
+        'xycraft_world:aluminum_storage',
+        'thermal:energy_cell',
+        'thermal:energy_cell_frame',
+        'thermal:redstone_servo',
+
     ]
     const rex = [
         /create:crushed_.*/,
@@ -192,6 +199,11 @@ JEIEvents.hideItems( e => {
         /exdeorum:compressed_.*_hammer/,
         /exdeorum:compressed_.*/,
 
+        /thermal:dynamo_.*/,
+        /thermal:machine_.*/,
+        /xycraft_world:.*ore_.*/,
+        / thermal: rf_coil_.*/
+
 
     ]
     rex.forEach((rex) => {
@@ -204,9 +216,18 @@ JEIEvents.hideItems( e => {
     })
 })
 JEIEvents.addItems(event => {
+    const add = [
+        // 'gtceu:enderium_ingot',
+        // 'gtceu:signalum_ingot',
+        // 'gtceu:lumium_ingot',
+    ]
     event.add(Item.of('thermal:signalum_glass'))
     event.add('thermal:lumium_glass')
     event.add('thermal:enderium_glass')
+
+    add.forEach(readd =>{
+        event.add(readd)
+    })
 })
 JEIEvents.hideFluids(event => {
     event.hide('thermal:light_oil')
@@ -226,4 +247,6 @@ JEIEvents.hideFluids(event => {
 
 JEIEvents.removeCategories(event => {
     event.remove('thermal:furnace')
+    //event.remove(/thermal:.*_dynamo/)
+    event.remove()
 })

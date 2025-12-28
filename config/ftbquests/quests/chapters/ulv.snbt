@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "ulv"
 	group: ""
-	icon: "gtceu:ulv_machine_casing"
+	icon: "gtceu:bronze_ingot"
 	id: "75C4C0229F2D2798"
 	order_index: 1
 	progression_mode: "linear"
@@ -63,30 +63,8 @@
 				}
 			]
 			title: "Base Resources"
-			x: 2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"42FD93DB49BE3739"
-				"64F15C7160BF5CBB"
-			]
-			description: ["With all the parts combined, you finally get your hands on your first LV circuit! It might be a good idea to make a bunch of these beforehand, to aid in the push for LV machines."]
-			id: "20A12F3B992762F0"
-			rewards: [{
-				id: "18B8D5B1764AA972"
-				item: "galaxy_greg:gregcoin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [{
-				id: "498DA55A2FC533E7"
-				item: "gtceu:basic_electronic_circuit"
-				type: "item"
-			}]
-			x: -5.25d
-			y: 0.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5094070DDE1BFA3D"]
@@ -152,8 +130,8 @@
 				}
 			]
 			title: "Basic Create"
-			x: 0.0d
-			y: -1.5d
+			x: -2.25d
+			y: -3.75d
 		}
 		{
 			dependencies: ["039D327E919878BF"]
@@ -178,11 +156,11 @@
 				}
 			]
 			title: "Bulk Smash"
-			x: -1.1607142857142918d
-			y: -0.6267857142856528d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["5094070DDE1BFA3D"]
+			dependencies: ["7BF88828F3A6C2CD"]
 			description: ["Extracting Latex from &lJungle Trees&r will be one of your first sources of rubber, after a bit of processing."]
 			icon: "thermal:device_tree_extractor"
 			id: "0A41C4FB379984C0"
@@ -204,8 +182,8 @@
 				}
 			]
 			title: "Latex Extraction"
-			x: 3.5d
-			y: 0.5d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5094070DDE1BFA3D"]
@@ -213,101 +191,432 @@
 			hide_dependent_lines: true
 			id: "3D0F6CA8028C074B"
 			rewards: [{
+				count: 3
 				id: "4B31B57CA206AD45"
 				item: "galaxy_greg:gregcoin"
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.25d
 			tasks: [
 				{
-					id: "15ECABD057EAF7EC"
+					id: "754DF908730E0E2B"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:tools/hammers"
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:wood_mallet"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											AttackDamage: 0.0f
+											AttackSpeed: -2.4f
+											DefaultEnchantments: [ ]
+											MaxDamage: 127
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:rubber_mallet"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											AttackDamage: 0.0f
+											AttackSpeed: -2.4f
+											DefaultEnchantments: [ ]
+											MaxDamage: 255
+										}
+										HideFlags: 2
+									}
+								}
+							]
 						}
 					}
-					title: "Any GregTech Hammer"
 					type: "item"
 				}
 				{
-					id: "6C43351270297092"
+					id: "1EC7FA380F340AF8"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:tools/files"
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:bronze_hammer"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											HarvestLevel: 2
+											MaxDamage: 191
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:iron_hammer"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											HarvestLevel: 2
+											MaxDamage: 255
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:wrought_iron_hammer"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											HarvestLevel: 2
+											MaxDamage: 383
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+									}
+								}
+							]
 						}
 					}
-					title: "Any GregTech File"
 					type: "item"
 				}
 				{
-					id: "07AD73E2A72B2126"
+					id: "55F79BF54407F9F7"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:tools/screwdrivers"
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:iron_wire_cutter"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											AttackDamage: 1.0f
+											AttackSpeed: -2.4f
+											DefaultEnchantments: [ ]
+											HarvestLevel: 2
+											MaxDamage: 255
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:wrought_iron_wire_cutter"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											AttackDamage: 1.0f
+											AttackSpeed: -2.6000001f
+											DefaultEnchantments: [ ]
+											HarvestLevel: 2
+											MaxDamage: 383
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:bronze_wire_cutter"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											AttackDamage: 1.0f
+											AttackSpeed: -2.4f
+											DefaultEnchantments: [ ]
+											HarvestLevel: 2
+											MaxDamage: 191
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+									}
+								}
+							]
 						}
 					}
-					title: "Any GregTech Screwdriver"
 					type: "item"
 				}
 				{
-					id: "46FD4FA440AC37D6"
+					id: "4271F86D619F71DB"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:tools/wire_cutters"
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:wrought_iron_screwdriver"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											MaxDamage: 383
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:iron_screwdriver"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											MaxDamage: 255
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:bronze_screwdriver"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											MaxDamage: 191
+										}
+										HideFlags: 2
+									}
+								}
+							]
 						}
 					}
-					title: "Any GregTech Wire Cutters"
 					type: "item"
 				}
 				{
-					id: "4D366E4AA997C407"
+					id: "01ADA345E378277B"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:tools/wrenches"
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:bronze_saw"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											HarvestIce: 1b
+										}
+										GT.Tool: {
+											AttackDamage: 1.0f
+											AttackSpeed: -2.6f
+											DefaultEnchantments: [ ]
+											MaxDamage: 191
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:iron_saw"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											HarvestIce: 1b
+										}
+										GT.Tool: {
+											AttackDamage: 1.0f
+											AttackSpeed: -2.6f
+											DefaultEnchantments: [ ]
+											MaxDamage: 255
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:wrought_iron_saw"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											HarvestIce: 1b
+										}
+										GT.Tool: {
+											AttackDamage: 1.0f
+											AttackSpeed: -2.8f
+											DefaultEnchantments: [ ]
+											MaxDamage: 383
+										}
+										HideFlags: 2
+									}
+								}
+							]
 						}
 					}
-					title: "Any GregTech Wrench"
 					type: "item"
 				}
 				{
-					id: "11A8DDD2F1758A57"
+					id: "797BAA116463DE5F"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:tools/saws"
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:wrought_iron_file"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											AttackDamage: 0.0f
+											AttackSpeed: -2.6000001f
+											DefaultEnchantments: [ ]
+											MaxDamage: 383
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:iron_file"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											AttackDamage: 0.0f
+											AttackSpeed: -2.4f
+											DefaultEnchantments: [ ]
+											MaxDamage: 255
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:bronze_file"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: { }
+										GT.Tool: {
+											AttackDamage: 0.0f
+											AttackSpeed: -2.4f
+											DefaultEnchantments: [ ]
+											MaxDamage: 191
+										}
+										HideFlags: 2
+									}
+								}
+							]
 						}
 					}
-					title: "Any GregTech Saw"
 					type: "item"
 				}
 				{
-					id: "0BBC49E7EE5D327F"
+					id: "089F06D05B2E7B69"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:tools/mallets"
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:iron_wrench"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											HarvestLevel: 2
+											MaxDamage: 255
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:wrought_iron_wrench"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											HarvestLevel: 2
+											MaxDamage: 383
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:bronze_wrench"
+									tag: {
+										Damage: 0
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											Mode: 2b
+										}
+										GT.Tool: {
+											DefaultEnchantments: [ ]
+											HarvestLevel: 2
+											MaxDamage: 191
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+									}
+								}
+							]
 						}
 					}
-					title: "Any GregTech Mallet"
 					type: "item"
 				}
 			]
-			title: "Tools for days"
-			x: 3.125d
-			y: -2.5d
+			title: "Classic Tools"
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["57614E5D2553C6DE"]
@@ -324,7 +633,7 @@
 				type: "item"
 			}]
 			title: "Frying Iron"
-			x: -2.5d
+			x: -5.5d
 			y: -1.0d
 		}
 		{
@@ -366,8 +675,8 @@
 				}
 			]
 			title: "Alloy Mixing"
-			x: -0.4202380952380622d
-			y: 0.13928571428579772d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -397,8 +706,8 @@
 				}
 			]
 			title: "Cable Insulation"
-			x: 4.0d
-			y: 1.5d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -438,8 +747,8 @@
 				}
 			]
 			title: "Steel"
-			x: 1.532142857142901d
-			y: 5.567857142857264d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3F74E863172E757F"]
@@ -470,37 +779,8 @@
 				}
 			]
 			title: "Base Alloys"
-			x: 0.5440476190476531d
-			y: -0.11071428571420228d
-		}
-		{
-			dependencies: [
-				"27BD18BC16FF84DF"
-				"44F4FFE40BE292AD"
-			]
-			description: ["Let's ignore the fact that this circuit board is just a plank of wood with some cables stuck to it with glue."]
-			icon: "gtceu:resin_circuit_board"
-			id: "7F716A5BCC5F6B34"
-			rewards: [{
-				id: "19281ED9DF35D470"
-				item: "galaxy_greg:gregcoin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "037915BFFE05A997"
-					item: "gtceu:wood_dust"
-					type: "item"
-				}
-				{
-					id: "47084ADCAA3A5275"
-					item: "gtceu:resin_circuit_board"
-					type: "item"
-				}
-			]
-			title: "Circuit Board"
-			x: -3.5d
-			y: 1.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["57614E5D2553C6DE"]
@@ -535,15 +815,15 @@
 				}
 			]
 			title: "Glassworks"
-			x: -3.0d
-			y: -2.0d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
-				"20A12F3B992762F0"
-				"36CD8B51E60B037A"
+				"08FF40F582D37455"
+				"1EEF65AFE303B99A"
 			]
-			description: ["Now that you have LV Machine Hulls, you can construct a new multiblock to process your ores further. This will give you access to important resources, like gold and nickel."]
+			description: ["Now that you have &b&nULV Machine Hull&r&f, you can construct a new multiblock to process your ores further. This will give you access to important resources, like gold and nickel."]
 			icon: {
 				Count: 1
 				id: "gtceu:primitive_ore_factory"
@@ -599,27 +879,8 @@
 				}
 			]
 			title: "Primitive Ore Factory"
-			x: -5.357142857142854d
-			y: 1.7660714285714931d
-		}
-		{
-			dependencies: ["5094070DDE1BFA3D"]
-			description: ["Pop this next to two water sources and you will never be thirsty again."]
-			icon: "thermal:device_water_gen"
-			id: "4491C4CD4AF75C93"
-			rewards: [{
-				id: "2EC04BA50FB49175"
-				item: "galaxy_greg:gregcoin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "16EB8EEFFA182EA2"
-				item: "thermal:device_water_gen"
-				type: "item"
-			}]
-			title: "Infinite Water"
-			x: 5.0d
-			y: 1.0d
+			x: -7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["68A092070EAFE524"]
@@ -652,13 +913,13 @@
 				}
 			]
 			title: "Coke Oven"
-			x: 0.75d
-			y: 3.75d
+			x: 3.0d
+			y: 2.25d
 		}
 		{
 			dependencies: [
-				"0A41C4FB379984C0"
 				"26F13779F4DF2763"
+				"46E41B05B9F6FA82"
 			]
 			description: ["Early fluid storage that can push and pull fluids. It accepts upgrades that can dramatically increase the storage capacity."]
 			id: "3013B0CF1D1F3E20"
@@ -686,28 +947,8 @@
 				type: "item"
 			}]
 			title: "Early Fluid Storage"
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["75F9E7F0DA150487"]
-			description: ["Using Crushing Wheels, you can automate gravel and sand. Crushing wheels have a set amount of time they need to process their items (based on their RPM), but can process up to a stack of items at a time. Smart Chutes are an easy way to pump a stack of items in at a time."]
-			id: "6C4EE5170B91D0EA"
-			optional: true
-			rewards: [{
-				id: "70F50B252635F623"
-				item: "galaxy_greg:gregcoin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "3E1B548747A6F526"
-				item: { Count: 2, id: "create:crushing_wheel" }
-				type: "item"
-			}]
-			title: "Basic Cobbleworks"
-			x: 1.0d
-			y: -3.5d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7EE1BE4043827F35"]
@@ -723,11 +964,12 @@
 				item: "gtceu:tempered_glass"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.0d
+			x: -7.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5094070DDE1BFA3D"]
+			hide_dependent_lines: true
 			id: "4527D9DD77CAEC8C"
 			rewards: [{
 				id: "137D2587AABED0B7"
@@ -786,12 +1028,11 @@
 				title: "Mortar"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4527D9DD77CAEC8C"]
-			hide_dependent_lines: true
 			icon: "gtceu:clay_dust"
 			id: "13B85E51524D2663"
 			rewards: [{
@@ -811,14 +1052,16 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 1.5d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"5094070DDE1BFA3D"
 				"4527D9DD77CAEC8C"
+				"3D0F6CA8028C074B"
 			]
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "gtceu:brick_wooden_form"
@@ -893,8 +1136,8 @@
 				}
 			]
 			title: "Wooden Form"
-			x: 2.5d
-			y: 0.5d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["039D327E919878BF"]
@@ -909,12 +1152,16 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["57614E5D2553C6DE"]
+			dependencies: [
+				"57614E5D2553C6DE"
+				"0843E56CA39E9822"
+			]
 			description: ["a better way to switch your fan setup"]
+			hide_dependency_lines: true
 			id: "405F60CAD3653CD2"
 			optional: true
 			rewards: [{
@@ -928,13 +1175,12 @@
 				item: "create_connected:empty_fan_catalyst"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4527D9DD77CAEC8C"]
-			hide_dependent_lines: true
-			icon: "galaxy_greg:sand_dust"
+			icon: "gtceu:quartz_sand_dust"
 			id: "3898DBC567AB10DE"
 			rewards: [{
 				id: "488D3ECFBE2F1D06"
@@ -949,16 +1195,15 @@
 				}
 				{
 					id: "037F4B369660CD41"
-					item: "galaxy_greg:sand_dust"
+					item: "gtceu:quartz_sand_dust"
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 1.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4527D9DD77CAEC8C"]
-			hide_dependent_lines: true
 			icon: "gtceu:brick_dust"
 			id: "3AFB69E68ECEB1D6"
 			rewards: [{
@@ -983,14 +1228,15 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 1.5d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"171A8170AB7354EC"
 				"13B85E51524D2663"
 				"3898DBC567AB10DE"
+				"1CD54EAA4772A1CA"
 			]
 			icon: "galaxy_greg:compressed_grout"
 			id: "5BB1643FA4943A4B"
@@ -1011,12 +1257,11 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 2.5d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4527D9DD77CAEC8C"]
-			hide_dependent_lines: true
 			icon: "gtceu:flint_dust"
 			id: "171A8170AB7354EC"
 			rewards: [{
@@ -1036,13 +1281,14 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 1.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"13B85E51524D2663"
 				"3898DBC567AB10DE"
+				"1CD54EAA4772A1CA"
 			]
 			icon: "gtceu:compressed_coke_clay"
 			id: "68A092070EAFE524"
@@ -1063,13 +1309,14 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 2.5d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
 				"3AFB69E68ECEB1D6"
 				"13B85E51524D2663"
+				"1CD54EAA4772A1CA"
 			]
 			icon: "gtceu:compressed_fireclay"
 			id: "6DFE8ABF69A8FDAD"
@@ -1090,8 +1337,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 2.5d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7BF88828F3A6C2CD"]
@@ -1114,20 +1361,28 @@
 				"3E931D2E92BE9486"
 				"0843E56CA39E9822"
 			]
+			icon: "gtceu:lp_steam_solid_boiler"
 			id: "7BF88828F3A6C2CD"
 			rewards: [{
 				id: "45A89E1DC6D062A5"
 				item: "galaxy_greg:gregcoin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "183353D13F505B58"
-				item: "gtceu:bronze_machine_casing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "183353D13F505B58"
+					item: "gtceu:bronze_machine_casing"
+					type: "item"
+				}
+				{
+					id: "48E1A008BC209E76"
+					item: "gtceu:lp_steam_solid_boiler"
+					type: "item"
+				}
+			]
 			title: "Steam age"
-			x: -1.5d
-			y: 0.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7BF88828F3A6C2CD"]
@@ -1142,11 +1397,12 @@
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7EE1BE4043827F35"]
+			hide_dependent_lines: true
 			icon: "gtceu:glass_tube"
 			id: "1B03E90F9F1D64C9"
 			rewards: [{
@@ -1166,8 +1422,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -3.0d
+			x: -6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7BF88828F3A6C2CD"]
@@ -1182,8 +1438,8 @@
 				item: "gtceu:lp_steam_forge_hammer"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["07C5B4C5EE2F948D"]
@@ -1198,108 +1454,8 @@
 				item: "gtceu:creosote_bucket"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["039D327E919878BF"]
-			icon: "create:mechanical_crafter"
-			id: "75F9E7F0DA150487"
-			rewards: [{
-				id: "77D00230DB754838"
-				item: "galaxy_greg:gregcoin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 21L
-					id: "59A29081F050AEC5"
-					item: { Count: 21, id: "create:mechanical_crafter" }
-					type: "item"
-				}
-				{
-					id: "469F36C8C43F16A5"
-					item: "create:electron_tube"
-					type: "item"
-				}
-				{
-					id: "782F2310C3ECB234"
-					item: "create:brass_casing"
-					type: "item"
-				}
-			]
-			title: "Mechanical Crafting"
-			x: 0.5d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"7F716A5BCC5F6B34"
-				"46E41B05B9F6FA82"
-				"1B03E90F9F1D64C9"
-			]
-			icon: "gtceu:vacuum_tube"
-			id: "42FD93DB49BE3739"
-			rewards: [{
-				id: "740532D73A2F720F"
-				item: "galaxy_greg:gregcoin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "0201E1D70B0DF171"
-					item: "gtceu:resin_printed_circuit_board"
-					type: "item"
-				}
-				{
-					id: "17AB2C1FD430461C"
-					item: "gtceu:vacuum_tube"
-					type: "item"
-				}
-				{
-					id: "3A6EC305B3978637"
-					item: "gtceu:resistor"
-					type: "item"
-				}
-				{
-					id: "1D61677697CE2994"
-					item: "gtceu:sticky_resin"
-					type: "item"
-				}
-			]
-			title: "Basic Circet Parts (LV)"
-			x: -3.5d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"143BB2B07A083CC0"
-				"64F15C7160BF5CBB"
-				"46E41B05B9F6FA82"
-			]
-			icon: "gtceu:lv_machine_hull"
-			id: "36CD8B51E60B037A"
-			rewards: [{
-				id: "01A64E8E6A9A7F90"
-				item: "galaxy_greg:gregcoin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [
-				{
-					id: "08F8812255126DA1"
-					item: "gtceu:lv_machine_casing"
-					type: "item"
-				}
-				{
-					id: "2C847392A0B986CE"
-					item: "gtceu:lv_machine_hull"
-					type: "item"
-				}
-			]
-			x: -3.5d
-			y: 2.5d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5AFFEDCBEBEFF914"]
@@ -1314,24 +1470,8 @@
 				item: "gtceu:treated_wood_planks"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5094070DDE1BFA3D"]
-			id: "22A3830B1D8A9940"
-			rewards: [{
-				id: "7FEB670CB6372222"
-				item: "galaxy_greg:gregcoin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "11EAE54CE524C4C6"
-				item: "thermal:device_rock_gen"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.0d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6DFE8ABF69A8FDAD"]
@@ -1358,14 +1498,11 @@
 				}
 			]
 			title: "Primitive Steelworks"
-			x: 2.25d
-			y: 3.75d
+			x: 0.75d
+			y: 2.25d
 		}
 		{
-			dependencies: [
-				"5BB1643FA4943A4B"
-				"46FC8CA753679813"
-			]
+			dependencies: ["5BB1643FA4943A4B"]
 			icon: "tconstruct:seared_melter"
 			id: "01E0390949132A4E"
 			rewards: [{
@@ -1385,10 +1522,11 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["01E0390949132A4E"]
 			icon: "tconstruct:smeltery_controller"
 			id: "46FC8CA753679813"
 			rewards: [{
@@ -1408,8 +1546,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 4.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1441,8 +1579,8 @@
 				}
 			]
 			title: "Basic Casting"
-			x: 4.5d
-			y: 3.5d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["46FC8CA753679813"]
@@ -1501,8 +1639,8 @@
 				}
 			]
 			title: "Basic Casting"
-			x: 4.5d
-			y: 4.5d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["397C622B06B1165A"]
@@ -1534,8 +1672,8 @@
 				}
 			]
 			title: "Copper Processing"
-			x: -6.5d
-			y: 1.5d
+			x: -7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["397C622B06B1165A"]
@@ -1567,8 +1705,8 @@
 				}
 			]
 			title: "Iron Processing"
-			x: -6.935714285714283d
-			y: 3.0196428571429195d
+			x: -6.0142857142857125d
+			y: 6.457142857142848d
 		}
 		{
 			dependencies: ["397C622B06B1165A"]
@@ -1600,8 +1738,8 @@
 				}
 			]
 			title: "Tin Processing"
-			x: -6.935714285714283d
-			y: 2.0767857142857835d
+			x: -7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["397C622B06B1165A"]
@@ -1628,8 +1766,8 @@
 				}
 			]
 			title: "Magnetite Processing"
-			x: -6.449999999999996d
-			y: 2.562500000000071d
+			x: -6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["397C622B06B1165A"]
@@ -1661,8 +1799,8 @@
 				}
 			]
 			title: "Stihnite Processing"
-			x: -7.421428571428571d
-			y: 2.562500000000071d
+			x: -6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["397C622B06B1165A"]
@@ -1694,8 +1832,8 @@
 				}
 			]
 			title: "Shalerite Processing"
-			x: -6.907142857142851d
-			y: 0.9910714285714946d
+			x: -7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["397C622B06B1165A"]
@@ -1727,8 +1865,236 @@
 				}
 			]
 			title: "Galener Processing"
-			x: -7.392857142857146d
-			y: 1.5053571428572141d
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"08FF40F582D37455"
+				"1EEF65AFE303B99A"
+			]
+			icon: "gtceu:mechanical_sifter"
+			id: "4CFFE49B1B77DFB0"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6FE2F68937F60099"
+					item: "gtceu:mechanical_sifter"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "64160517327550B9"
+					item: { Count: 12, id: "gtceu:wrought_iron_frame" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7F30A86C88167AEA"
+					item: { Count: 9, id: "galaxy_greg:mesh_block" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "784D38405D66FBB0"
+					item: { Count: 64, id: "galaxy_greg:wood_casing" }
+					type: "item"
+				}
+			]
+			title: "Better Sifting"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"08FF40F582D37455"
+				"3F9F7FCE990E71ED"
+				"46E41B05B9F6FA82"
+			]
+			icon: "ulvcovm:ulv_electric_motor"
+			id: "2D073C1781C94BE0"
+			tasks: [
+				{
+					id: "2BFDE8802A271BD4"
+					item: "ulvcovm:ulv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "37199AD49A6D9655"
+					item: "ulvcovm:ulv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "328C43A1BB65C17B"
+					item: "ulvcovm:ulv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "6269E4AC73016783"
+					item: "ulvcovm:ulv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "1D0F49E30742A0AD"
+					item: "ulvcovm:ulv_electric_piston"
+					type: "item"
+				}
+			]
+			title: "We love it"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3E931D2E92BE9486"
+				"0843E56CA39E9822"
+			]
+			icon: "gtceu:copper_plate"
+			id: "39ED51D84D8DED0A"
+			tasks: [
+				{
+					id: "17B983C322438C6C"
+					item: "gtceu:red_alloy_plate"
+					type: "item"
+				}
+				{
+					id: "3D1E7E7E27E9B92D"
+					item: "gtceu:bronze_plate"
+					type: "item"
+				}
+				{
+					id: "5FAECE659022AE98"
+					item: "gtceu:tin_plate"
+					type: "item"
+				}
+			]
+			title: "Basic Plates"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39ED51D84D8DED0A"]
+			hide_dependent_lines: true
+			icon: "gtceu:copper_single_wire"
+			id: "3F9F7FCE990E71ED"
+			tasks: [
+				{
+					id: "09F4AA67AA0E16FC"
+					item: "gtceu:red_alloy_single_wire"
+					type: "item"
+				}
+				{
+					id: "1CB93FB328FD3309"
+					item: "gtceu:copper_single_wire"
+					type: "item"
+				}
+				{
+					id: "24677E704FB9443E"
+					item: "gtceu:tin_single_wire"
+					type: "item"
+				}
+			]
+			title: "Basic Wires"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"143BB2B07A083CC0"
+				"27BD18BC16FF84DF"
+				"3F9F7FCE990E71ED"
+				"4FE71C249B8EB18A"
+			]
+			id: "08FF40F582D37455"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "45C8819EACB2BD93"
+					item: "gtceu:ulv_machine_casing"
+					type: "item"
+				}
+				{
+					id: "559FE644CAFE1955"
+					item: "gtceu:ulv_machine_hull"
+					type: "item"
+				}
+			]
+			title: "ULV Age"
+			x: -5.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["08FF40F582D37455"]
+			icon: "gtceu:ulv_input_hatch"
+			id: "1EEF65AFE303B99A"
+			tasks: [
+				{
+					id: "54D626A906C1C87A"
+					item: "gtceu:ulv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "19D47A27B906D097"
+					item: "gtceu:ulv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "04436D9C307F6855"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
+				}
+				{
+					id: "36E6F79A8490A499"
+					item: "gtceu:ulv_output_bus"
+					type: "item"
+				}
+			]
+			title: "ULV Hatch/bus"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"227B510DED637BA8"
+				"7BF88828F3A6C2CD"
+			]
+			description: ["Produces infinite water; the rate depends on the biome"]
+			icon: "gtceu:primitive_pump"
+			id: "2E4E09CDACA3C059"
+			rewards: [{
+				id: "6ED9F2FC494D9342"
+				item: "galaxy_greg:gregcoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "33D6083130C0F67B"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2ED81E408EDFB181"
+					item: { Count: 10, id: "gtceu:pump_deck" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2EAABBD288595622"
+					item: { Count: 10, id: "gtceu:treated_wood_frame" }
+					type: "item"
+				}
+				{
+					id: "62053D69519112F4"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+			]
+			title: "Infinite water (Slow)"
+			x: -0.5d
+			y: 0.0d
 		}
 	]
 	title: "ULV/Steam Age"

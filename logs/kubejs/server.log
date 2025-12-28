@@ -1,56 +1,102 @@
-[06:53:28] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[06:53:28] [INIT] Loaded plugins:
-[06:53:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[06:53:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[06:53:28] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
-[06:53:28] [INIT] - pie.ilikepiefoo.AdditionsPlugin
-[06:53:28] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
-[06:53:28] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[06:53:28] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[06:53:28] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[06:53:28] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[06:53:28] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[06:53:28] [INIT] - com.probejs.ProbeJSPlugin
-[06:53:28] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
-[06:53:28] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[06:53:28] [INIT] - net.yxiao233.kubejsthermalaugments.kubejs.ModKubeJSPlugin
-[06:53:28] [INIT] - com.alessandro.astages.integration.kubejs.AStageKubeJSPlugin
-[06:53:28] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[06:53:29] [INFO] Loaded script server_scripts:mods/create/mode.js in 0.003 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/exdeorum/barrel.js in 0.0 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/exdeorum/ex_material.js in 0.001 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/exdeorum/head.js in 0.0 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/exdeorum/peddels.js in 0.002 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/exdeorum/sieve.js in 0.001 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/galaxy_greg/earlygame.js in 0.0 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/galaxy_greg/gas_su.js in 0.001 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/galaxy_greg/minecraft.js in 0.001 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/galaxy_greg/ore_procces.js in 0.001 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/gt/crafting_gt.js in 0.0 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/tag/materials.js in 0.001 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/tag/material_replace.js in 0.001 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/tag/tag.js in 0.0 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/thermal/materials_thermal.js in 0.002 s
-[06:53:29] [INFO] Loaded script server_scripts:mods/tinkes/tinkers.js in 0.0 s
-[06:53:29] [INFO] Loaded 16/16 KubeJS server scripts in 0.033 s with 0 errors and 0 warnings
-[06:53:29] [INFO] Scripts loaded
-[06:53:29] [INFO] Initializing recipe event...
-[06:53:34] [INFO] Processing recipes...
-[06:53:34] [WARN] Failed to parse recipe 'bigger_ae2:quantum_flux_storage_cell[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[06:53:34] [WARN] Failed to parse recipe 'bigger_ae2:digital_singularity_flux_storage_cell[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[06:53:35] [WARN] Failed to parse recipe 'bigger_ae2:advanced_flux_cell_housing[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[06:53:35] [INFO] Found 46465 recipes in 1.257 s
-[06:53:36] [WARN] mods/galaxy_greg/earlygame.js#6: Trying to add more inputs than RecipeType can support, id: gtceu:auto_barrel_fluid_mixing/soulsand, Max fluidInputs: 1
-[06:53:36] [WARN] mods/galaxy_greg/earlygame.js#7: Trying to add more inputs than RecipeType can support, id: gtceu:auto_barrel_fluid_mixing/soulsoul, Max fluidInputs: 1
-[06:53:36] [WARN] mods/galaxy_greg/earlygame.js#8: Trying to add more inputs than RecipeType can support, id: gtceu:auto_barrel_fluid_mixing/slime_block, Max fluidInputs: 1
-[06:53:36] [WARN] mods/galaxy_greg/earlygame.js#9: Trying to add more inputs than RecipeType can support, id: gtceu:auto_barrel_fluid_mixing/mud, Max fluidInputs: 1
-[06:53:36] [WARN] mods/galaxy_greg/earlygame.js#10: Trying to add more inputs than RecipeType can support, id: gtceu:auto_barrel_fluid_mixing/clay, Max fluidInputs: 1
-[06:53:36] [WARN] mods/galaxy_greg/earlygame.js#11: Trying to add more inputs than RecipeType can support, id: gtceu:auto_barrel_fluid_mixing/ice, Max fluidInputs: 1
-[06:53:36] [WARN] mods/gt/crafting_gt.js#19: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[06:53:36] [WARN] mods/gt/crafting_gt.js#24: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[06:53:37] [INFO] Posted recipe events in 1.940 s
-[06:53:37] [WARN] Error parsing recipe gtceu:shapeless/centrifuged_ore_to_dust_neutronium[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"forge:tools/hammers"},[]],"result":{"item":"gtceu:neutronium_mixture_dust"}}: Item array cannot be empty, at least one item must be defined
-[06:53:39] [INFO] Added 170 recipes, removed 2834 recipes, modified 73 recipes, with 1 failed recipes in 1.254 s
-[06:53:39] [INFO] Collecting Custom Machine upgrades from JS scripts.
-[06:53:39] [INFO] Successfully added 0 Custom Machine upgrades
-[06:53:40] [INFO] Server resource reload complete!
+[23:40:32] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[23:40:32] [INIT] Loaded plugins:
+[23:40:32] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[23:40:32] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[23:40:32] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
+[23:40:32] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[23:40:32] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[23:40:32] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[23:40:32] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[23:40:32] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[23:40:32] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[23:40:32] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[23:40:32] [INIT] - com.probejs.ProbeJSPlugin
+[23:40:32] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
+[23:40:32] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[23:40:32] [INIT] - net.yxiao233.kubejsthermalaugments.kubejs.ModKubeJSPlugin
+[23:40:32] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/create/mode.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/exdeorum/barrel.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/exdeorum/ex_material.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/exdeorum/head.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/exdeorum/peddels.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/exdeorum/sieve.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/galaxy_greg/earlygame.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/galaxy_greg/gas_su.js in 0.002 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/galaxy_greg/mechaical_sieve.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/galaxy_greg/minecraft.js in 0.0 s
+[23:40:32] [INFO] src/mods/galaxy_greg/ore_procces.js#1: Loaded Java class 'com.mo_guang.ctpp.api.StressRecipeCapability'
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/galaxy_greg/ore_procces.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/gt/crafting_gt.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/gt/machine.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/tag/materials.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/tag/material_replace.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/tag/tag.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/thermal/materials_thermal.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/tinkes/tinkers.js in 0.0 s
+[23:40:32] [INFO] Loaded script server_scripts:src/mods/xycraft/xycraft.js in 0.0 s
+[23:40:32] [INFO] Loaded 19/19 KubeJS server scripts in 0.009 s with 0 errors and 0 warnings
+[23:40:32] [INFO] Scripts loaded
+[23:40:32] [INFO] Initializing recipe event...
+[23:40:32] [INFO] [minecraft:block] Found 1292 tags, added 10 objects, removed 0 objects
+[23:40:32] [INFO] Processing recipes...
+[23:40:32] [WARN] Failed to parse recipe 'gtceu:shaped/ulv_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, result:output_item, kubejs:shrink?:boolean, pattern:string[], kubejs:mirror?:boolean]
+[23:40:32] [WARN] Failed to parse recipe 'gtceu:shaped/uiv_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, pattern:string[], kubejs:shrink?:boolean, result:output_item, kubejs:mirror?:boolean]
+[23:40:32] [WARN] Failed to parse recipe 'gtceu:shaped/zpm_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [result:output_item, key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], kubejs:mirror?:boolean]
+[23:40:32] [WARN] Failed to parse recipe 'bigger_ae2:digital_singularity_flux_storage_cell[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[23:40:32] [WARN] Failed to parse recipe 'gtceu:shaped/mv_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, result:output_item, kubejs:shrink?:boolean, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/zpm_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, result:output_item, pattern:string[], kubejs:shrink?:boolean, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/uev_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/uhv_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, result:output_item, kubejs:shrink?:boolean, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/ev_electric_gear_box_32a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/uv_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [result:output_item, key:input_item_pattern_key, kubejs:mirror?:boolean, kubejs:shrink?:boolean, pattern:string[]]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/max_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [pattern:string[], result:output_item, key:input_item_pattern_key, kubejs:shrink?:boolean, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/ev_electric_gear_box_16a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, result:output_item, kubejs:shrink?:boolean, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/ev_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [result:output_item, key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/ev_kinetic_mixer[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [result:output_item, key:input_item_pattern_key, kubejs:mirror?:boolean, kubejs:shrink?:boolean, pattern:string[]]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/lv_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/hv_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [pattern:string[], key:input_item_pattern_key, result:output_item, kubejs:shrink?:boolean, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/lv_electric_gear_box_8a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [kubejs:mirror?:boolean, key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, pattern:string[]]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/lv_electric_gear_box_2a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/uhv_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'bigger_ae2:advanced_flux_cell_housing[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/uxv_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [pattern:string[], key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/ev_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [result:output_item, key:input_item_pattern_key, kubejs:mirror?:boolean, kubejs:shrink?:boolean, pattern:string[]]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/luv_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [result:output_item, key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'bigger_ae2:quantum_flux_storage_cell[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/mv_electric_gear_box_8a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/mv_electric_gear_box_2a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/hv_electric_gear_box_32a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/hv_electric_gear_box_16a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/max_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, pattern:string[], kubejs:shrink?:boolean, result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/opv_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/hv_kinetic_mixer[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/ulv_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [result:output_item, key:input_item_pattern_key, kubejs:mirror?:boolean, kubejs:shrink?:boolean, pattern:string[]]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/lv_kinetic_mixer[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [pattern:string[], key:input_item_pattern_key, result:output_item, kubejs:shrink?:boolean, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/lv_electric_gear_box_32a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [result:output_item, key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/ev_electric_gear_box_2a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/ev_electric_gear_box_8a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, pattern:string[], kubejs:shrink?:boolean, result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/lv_electric_gear_box_16a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [pattern:string[], result:output_item, key:input_item_pattern_key, kubejs:shrink?:boolean, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/opv_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/hv_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/iv_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, result:output_item, kubejs:shrink?:boolean, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/luv_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [pattern:string[], key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/mv_kinetic_mixer[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, result:output_item, kubejs:shrink?:boolean, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/hv_electric_gear_box_8a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, pattern:string[], kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/hv_electric_gear_box_2a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/uv_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/mv_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [pattern:string[], key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/uiv_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [pattern:string[], key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/iv_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [pattern:string[], key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/uev_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], result:output_item, kubejs:mirror?:boolean]
+[23:40:33] [WARN] Failed to parse recipe 'gtceu:shaped/lv_kinetic_input_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [result:output_item, key:input_item_pattern_key, kubejs:shrink?:boolean, pattern:string[], kubejs:mirror?:boolean]
+[23:40:34] [WARN] Failed to parse recipe 'gtceu:shaped/uxv_kinetic_output_box[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, result:output_item, kubejs:shrink?:boolean, pattern:string[], kubejs:mirror?:boolean]
+[23:40:34] [WARN] Failed to parse recipe 'gtceu:shaped/mv_electric_gear_box_16a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, kubejs:shrink?:boolean, result:output_item, pattern:string[], kubejs:mirror?:boolean]
+[23:40:34] [WARN] Failed to parse recipe 'gtceu:shaped/mv_electric_gear_box_32a[minecraft:crafting_shaped]'! Falling back to vanilla: Recipe component key 'key' not found! Valid keys: [key:input_item_pattern_key, pattern:string[], kubejs:shrink?:boolean, result:output_item, kubejs:mirror?:boolean]
+[23:40:34] [INFO] Found 66740 recipes in 1.189 s
+[23:40:35] [INFO] Posted recipe events in 1.766 s
+[23:40:35] [WARN] Error parsing recipe gtceu:shapeless/centrifuged_ore_to_dust_neutronium[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"gtceu:tools/crafting_hammers"},[]],"result":{"item":"gtceu:neutronium_mixture_dust"}}: Item array cannot be empty, at least one item must be defined
+[23:40:36] [INFO] Added 270 recipes, removed 2265 recipes, modified 232 recipes, with 1 failed recipes in 1.163 s
+[23:40:37] [INFO] Collecting Custom Machine upgrades from JS scripts.
+[23:40:37] [INFO] Successfully added 0 Custom Machine upgrades
+[23:40:37] [INFO] Server resource reload complete!

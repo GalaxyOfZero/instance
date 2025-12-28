@@ -20,17 +20,17 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | of | ServerPlayer, ServerPlayer, boolean |  | PlayerCloneEventJS | ✔ |
-| getEntity |  |  | Entity | ✘ |
 | getNewPlayer |  |  | Player | ✘ |
 | getOldPlayer |  |  | Player | ✘ |
-| causedByDeath |  |  | boolean | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | causedByPortal |  |  | boolean | ✘ |
-| returningFromEnd |  |  | boolean | ✘ |
+| causedByDeath |  |  | boolean | ✘ |
 | leavingEnd |  |  | boolean | ✘ |
+| returningFromEnd |  |  | boolean | ✘ |
+| getPlayer |  |  | Player | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
-| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -42,6 +42,15 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 
 ### Documented members:
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
+```
 
 - `boolean hasGameStage(String var0)`
 
@@ -59,15 +68,6 @@ Checks if the player has the specified game stage
 
 ```
 Adds the specified game stage to the player
-```
-
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
 ```
 
 - `Object exit(Object var0)`

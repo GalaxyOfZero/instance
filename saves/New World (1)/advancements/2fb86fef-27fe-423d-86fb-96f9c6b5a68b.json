@@ -11,5 +11,100 @@
     },
     "done": false
   },
+  "exdeorum:core/root": {
+    "criteria": {
+      "in_void_world": "2025-12-15 07:54:11 +0100"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/magnet_card": {
+    "criteria": {
+      "has_wct": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_pattern_access": {
+    "criteria": {
+      "has_wit": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_pattern_encoding": {
+    "criteria": {
+      "has_wpt": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/ce": {
+    "criteria": {
+      "has_wpt": "2025-12-15 07:54:12 +0100",
+      "has_wct": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/ca": {
+    "criteria": {
+      "has_wit": "2025-12-15 07:54:12 +0100",
+      "has_wct": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_crafting": {
+    "criteria": {
+      "has_wct": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/ae": {
+    "criteria": {
+      "has_wit": "2025-12-15 07:54:12 +0100",
+      "has_wpt": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_pattern_access_terminal": {
+    "criteria": {
+      "has_wt": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/quantum_bridge_card": {
+    "criteria": {
+      "has_wit": "2025-12-15 07:54:12 +0100",
+      "has_wpt": "2025-12-15 07:54:12 +0100",
+      "has_wct": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "create_connected:root": {
+    "criteria": {
+      "0": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_pattern_encoding_terminal": {
+    "criteria": {
+      "has_wt": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-12-15 07:54:12 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:root": {
+    "criteria": {
+      "tick": "2025-12-15 07:54:25 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

@@ -19,7 +19,7 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| add | FluidIngredient, BiConsumer<OpenEndedPipe, FluidStackJS> |  | void | ✘ |
+| add | FluidIngredient, PipeHandler |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

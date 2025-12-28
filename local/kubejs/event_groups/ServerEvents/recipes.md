@@ -34,27 +34,27 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | remove | RecipeFilter |  | void | ✘ |
-| custom | JsonObject |  | RecipeJS | ✘ |
-| getRecipes |  |  | Map<String, Object> | ✘ |
-| printTypes |  |  | void | ✘ |
-| runInParallel | Callable<T> |  | T | ✔ |
-| runInParallel | Runnable |  | void | ✔ |
-| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
-| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
-| stage | RecipeFilter, String |  | void | ✘ |
-| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
 | addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
-| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
+| stage | RecipeFilter, String |  | void | ✘ |
+| custom | JsonObject |  | RecipeJS | ✘ |
+| printTypes |  |  | void | ✘ |
+| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
+| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
+| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
+| getRecipes |  |  | Map<String, Object> | ✘ |
+| countRecipes | RecipeFilter |  | int | ✘ |
+| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
+| containsRecipe | RecipeFilter |  | boolean | ✘ |
+| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
 | customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
 | recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
-| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
-| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
-| countRecipes | RecipeFilter |  | int | ✘ |
-| printAllTypes |  |  | void | ✘ |
-| printExamples | String |  | void | ✘ |
-| containsRecipe | RecipeFilter |  | boolean | ✘ |
 | forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
+| printExamples | String |  | void | ✘ |
 | setItemErrors | boolean |  | void | ✘ |
+| printAllTypes |  |  | void | ✘ |
+| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
+| runInParallel | Callable<T> |  | T | ✔ |
+| runInParallel | Runnable |  | void | ✔ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

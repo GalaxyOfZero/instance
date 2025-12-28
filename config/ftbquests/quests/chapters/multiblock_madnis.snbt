@@ -4,7 +4,7 @@
 	filename: "multiblock_madnis"
 	group: ""
 	id: "36447A4E0AD23F6A"
-	order_index: 4
+	order_index: 5
 	quest_links: [
 		{
 			id: "488C6C3865225DA3"
@@ -71,6 +71,22 @@
 				}
 			]
 			x: -7.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Perfect Overclocks: 4xEU/t 0.25 totale recipe time"
+				""
+				"Perfect Half Overclocks: 2xEU/t 0.5 totale recipe time"
+				""
+				"Perfect Subtick Overclock: 4x voltage, 0.25x duration"
+			]
+			id: "07694C6AB1E5BE49"
+			tasks: [{
+				id: "079E7D6AADE98891"
+				type: "custom"
+			}]
+			x: -10.5d
 			y: -6.5d
 		}
 	]

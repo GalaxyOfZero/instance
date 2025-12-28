@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "galaxy_greg:block/casing/aluminium_casing"
+    }
+}

@@ -1,0 +1,15 @@
+StartupEvents.registry('block', event =>{
+    event.create('galaxy_greg:wood_casing').mapColor('metal').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("forge:mineable/wrench").requiresTool(true)
+    event.create('galaxy_greg:aluminium_casing').mapColor('metal').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("forge:mineable/wrench").requiresTool(true)
+    event.create('galaxy_greg:mesh_block').hardness(2).resistance(2).mapColor('wood').transparent(true).defaultTranslucent()
+
+    event.create('galaxy_greg:aluminium_gearbox_casing').mapColor('metal').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("forge:mineable/wrench").requiresTool(true).textureAll('galaxy_greg:block/casing/aluminium_gearbox_casing')
+    event.create('galaxy_greg:aluminium_pipe_casing').mapColor('metal').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("forge:mineable/wrench").requiresTool(true).textureAll('galaxy_greg:block/casing/aluminium_pipe_casing')
+    event.create('galaxy_greg:aluminium_firebox_casing', 'gtceu:active')
+        .firebox('gtceu:block/casings/voltage/mv/top', 'galaxy_greg:block/casing/machine_casing_firebox_aluminium','gtceu:block/casings/voltage/mv/bottom')
+        .soundType('metal')
+        .resistance(6).hardness(5)
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+})

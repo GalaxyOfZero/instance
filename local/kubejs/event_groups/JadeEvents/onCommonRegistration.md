@@ -20,12 +20,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | progress | ResourceLocation, Class<? extends T> |  | ServerExtensionProviderBuilder<T, CompoundTag> | ✘ |
+| getRegistration |  |  | IWailaCommonRegistration | ✘ |
 | energyStorage | ResourceLocation, Class<? extends T> |  | ServerExtensionProviderBuilder<T, CompoundTag> | ✘ |
 | fluidStorage | ResourceLocation, Class<? extends T> |  | ServerExtensionProviderBuilder<T, CompoundTag> | ✘ |
-| getRegistration |  |  | IWailaCommonRegistration | ✘ |
-| blockDataProvider | ResourceLocation, Class<? extends BlockEntity> |  | ServerDataProviderBuilder<BlockAccessor> | ✘ |
-| entityDataProvider | ResourceLocation, Class<? extends Entity> |  | ServerDataProviderBuilder<EntityAccessor> | ✘ |
 | itemStorage | ResourceLocation, Class<? extends T> |  | ServerExtensionProviderBuilder<T, ItemStack> | ✘ |
+| entityDataProvider | ResourceLocation, Class<? extends Entity> |  | ServerDataProviderBuilder<EntityAccessor> | ✘ |
+| blockDataProvider | ResourceLocation, Class<? extends BlockEntity> |  | ServerDataProviderBuilder<BlockAccessor> | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

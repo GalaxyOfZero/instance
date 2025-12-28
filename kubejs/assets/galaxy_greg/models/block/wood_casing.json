@@ -1,8 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-       "all": "galaxy_greg:block/wood_casing"
-    },
-    "loader": "fusion:model",
-    "type": "connecting"
-}
+        "all": "galaxy_greg:block/casing/treatet"
+    }
+ }

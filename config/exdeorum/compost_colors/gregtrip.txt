@@ -1,0 +1,9 @@
+// Compost colors for gregtrip. You may add your own colors, change existing ones, or remove colors that aren't needed.
+acid_blotter, #dad9b1
+blotter, #ffffff
+blotter_sheet, #ffffff
+ergot_fungal_sample, #323352
+immature_ergot_culture, #cddae4
+mature_ergot_culture, #c5d0d9
+morning_glory, #7f5125
+neutralized_ergot_culture, #c9d4dd

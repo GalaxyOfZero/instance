@@ -4,7 +4,7 @@
 	filename: "power_generator"
 	group: ""
 	id: "30D9C7F6330067D6"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -30,7 +30,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["0843E56CA39E9822"]
+			dependencies: [
+				"0843E56CA39E9822"
+				"397C622B06B1165A"
+			]
 			id: "748EB48B81DDCB5B"
 			tasks: [{
 				id: "429121FEEB27BFDB"
@@ -52,7 +55,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["36CD8B51E60B037A"]
 			id: "33BE3625B38B5888"
 			tasks: [{
 				id: "185D7527AC1F1040"

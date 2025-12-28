@@ -26,10 +26,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getItem |  |  | ItemStack | ✘ |
 | getEntity |  |  | LivingEntity | ✘ |
 | getInventory |  |  | InventoryKJS | ✘ |
+| getPlayer |  |  | Player | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
-| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -57,6 +57,15 @@ The player that crafted the item.
 The inventory that the item was crafted in.
 ```
 
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
+```
+
 - `boolean hasGameStage(String var0)`
 
   Parameters:
@@ -73,15 +82,6 @@ Checks if the player has the specified game stage
 
 ```
 Adds the specified game stage to the player
-```
-
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
 ```
 
 - `Object exit(Object var0)`

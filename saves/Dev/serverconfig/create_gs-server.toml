@@ -1,0 +1,60 @@
+
+#Tiered Vault Settings
+[tiers]
+
+	[tiers.copper]
+		#Copper vault stacking multiplier (default 2)
+		#Range: 1 ~ 10
+		multiplierLength = 2
+		#Copper vault slot capacity (default 27)
+		#Range: 1 ~ 1000
+		capacity = 27
+
+	[tiers.bronze]
+		#Bronze vault stacking multiplier (default 3)
+		#Range: 1 ~ 10
+		multiplierLength = 3
+		#Bronze vault slot capacity (default 54)
+		#Range: 1 ~ 2000
+		capacity = 54
+
+	[tiers.steel]
+		#Steel vault stacking multiplier (default 4)
+		#Range: 1 ~ 10
+		multiplierLength = 4
+		#Steel vault slot capacity (default 72)
+		#Range: 1 ~ 2000
+		capacity = 72
+
+	[tiers.aluminium]
+		#Aluminium vault stacking multiplier (default 4)
+		#Range: 1 ~ 10
+		multiplierLength = 4
+		#Aluminium vault slot capacity (default 90)
+		#Range: 1 ~ 2000
+		capacity = 90
+
+	[tiers.stainless_steel]
+		#Stainless Steel vault stacking multiplier (default 5)
+		#Range: 1 ~ 10
+		multiplierLength = 5
+		#Stainless Steel slot capacity (default 108)
+		#Range: 1 ~ 2000
+		capacity = 108
+
+	[tiers.titanium]
+		#Titanium vault stacking multiplier (default 5)
+		#Range: 1 ~ 10
+		multiplierLength = 5
+		#Titanium vault slot capacity (default 126)
+		#Range: 1 ~ 2000
+		capacity = 126
+
+	[tiers.tungsten_steel]
+		#Tungstensteel vault stacking multiplier (default 6)
+		#Range: 1 ~ 10
+		multiplierLength = 6
+		#Tungstensteel vault slot capacity (default 144)
+		#Range: 1 ~ 2000
+		capacity = 144
+

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "coils"
+	group: ""
+	icon: "gtceu:cupronickel_coil_block"
+	id: "249A715154A360CF"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Coils"
+}

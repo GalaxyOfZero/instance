@@ -1,0 +1,13 @@
+[23:40:32.074][INFO]: Parsing all .json files in machines folder.
+[23:40:32.074][INFO]: Parsing all .json files in upgrades folder.
+[23:40:32.077][INFO]: Finished, 0 .json files successfully parsed in upgrades folder.
+[23:40:32.078][INFO]: Finished, 1 .json files successfully parsed in machines folder.
+[23:40:37.026][INFO]: Reading Custom Machinery Machines...
+[23:40:37.026][INFO]: Parsing machine json: custommachinery:gas_generator in datapack: KubeJS Resource Pack [data]
+[23:40:37.026][INFO]: Successfully parsed machine json: custommachinery:gas_generator
+[23:40:37.026][INFO]: Finished creating 1 custom machines.
+[23:40:37.026][INFO]: Reading Custom Machinery Upgrades json
+[23:40:37.026][INFO]: No machine upgrade json found.
+[23:40:37.026][INFO]: Collecting machine upgrades with kubeJS.
+[23:40:37.026][INFO]: No machine upgrades found with kubejs
+[23:40:37.026][INFO]: Finished creating custom machine upgrades.

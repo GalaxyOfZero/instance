@@ -1,0 +1,23 @@
+// Compost colors for crazyae2addons. You may add your own colors, change existing ones, or remove colors that aren't needed.
+add_card, #8ca5a7
+bsl_card, #96afb1
+bsr_card, #96afb1
+crazy_pattern_modifier, #b4c3c3
+crazy_pattern_multiplier, #a4b9bf
+div_card, #8ca5a7
+experience_upgrade_card, #b6b9a7
+hif_card, #8ca5a7
+hit_card, #91abab
+logic_card, #a0b9bb
+looting_upgrade_card, #c6b9ae
+max_card, #96afb1
+min_card, #96afb1
+mob_cell_housing, #25a8c9
+mob_storage_cell_16k, #22c0c2
+mob_storage_cell_1k, #37aac5
+mob_storage_cell_256k, #34b1e0
+mob_storage_cell_4k, #41c2bf
+mob_storage_cell_64k, #29c2e1
+mul_card, #8aa4a5
+sub_card, #94aeae
+xp_shard, #7fff18

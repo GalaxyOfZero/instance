@@ -19,18 +19,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| createTag | Map<Number, ResourceLocation> |  | Component | ✘ |
-| create | Map<Number, Object> |  | Component | ✘ |
-| createItem | Map<Number, ItemStack> |  | Component | ✘ |
-| modify | Component, int, Object |  | void | ✘ |
-| modify | Component, Map<Number, Object> |  | void | ✘ |
-| modifyTag | Component, Map<Number, ResourceLocation> |  | void | ✘ |
-| modifyTag | Component, int, ResourceLocation |  | void | ✘ |
-| modifyItem | Component, Map<Number, ItemStack> |  | void | ✘ |
-| modifyItem | Component, int, ItemStack |  | void | ✘ |
-| modifyUnificationEntry | Component, int, UnificationEntry |  | void | ✘ |
-| modifyUnificationEntry | Component, Map<Number, UnificationEntry> |  | void | ✘ |
-| createUnificationEntry | Map<Number, UnificationEntry> |  | Component | ✘ |
+| set | CraftingComponent, Map<Object, Object> |  | void | ✘ |
+| createTag | String, ResourceLocation |  | ComponentWrapper | ✘ |
+| setTags | CraftingComponent, Map<Object, Object> |  | void | ✘ |
+| setTag | CraftingComponent, int, ResourceLocation |  | void | ✘ |
+| setItems | CraftingComponent, Map<Object, Object> |  | void | ✘ |
+| setItem | CraftingComponent, int, ItemStack |  | void | ✘ |
+| createItem | String, ItemStack |  | ComponentWrapper | ✘ |
+| setFallbackMaterialEntry | CraftingComponent, MaterialEntry |  | void | ✘ |
+| createMaterialEntry | String, MaterialEntry |  | ComponentWrapper | ✘ |
+| setFallbackTag | CraftingComponent, ResourceLocation |  | void | ✘ |
+| removeTier | CraftingComponent, int |  | void | ✘ |
+| setMaterialEntries | CraftingComponent, Map<Object, Object> |  | void | ✘ |
+| removeTiers | CraftingComponent, int[] |  | void | ✘ |
+| setMaterialEntry | CraftingComponent, int, MaterialEntry |  | void | ✘ |
+| setFallbackItem | CraftingComponent, ItemStack |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

@@ -22,9 +22,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getLevel |  |  | Level | ✘ |
+| getPlayer |  |  | ServerPlayer | ✘ |
 | getEntity |  |  | Entity | ✘ |
 | getClaimPos |  |  | BlockPos | ✘ |
-| getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
